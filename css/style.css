@@ -1,0 +1,291 @@
+/* paleta de colores a utilizar
+    #000957 / rgb(0, 9, 87)
+    #344CB7 / rgb(52, 76, 183)
+    #577BC1 / rgb(87, 123, 193)
+    #FFEB00 / rgb(255, 235, 0) --> */
+
+/* tipografia a utilizar
+font-family: "Poppins", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS HEADER */
+header {
+    background-color: #000957;
+}
+header img {
+    background-color: #000957;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+header h1 {
+    background-color: #000957;
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+    font-size: 48px;
+    color: white;
+}
+header h2 {
+    background-color: #000957;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav ul {
+    background-color: #000957;
+    color: #ffeb00;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+
+ul a{
+    color: #ffeb00;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    white-space: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* DODY */
+body {
+    background-color: #000957;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    color: #577BC1;
+    Font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-inline-start: 2%;
+}
+
+h2 {
+    color: white;
+    Font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    }
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: 200px;
+    text-align: justify;
+    margin: 20px;
+}
+
+/* BODY HOME */
+/* section 1 del cuerpo home */
+
+.seccion1cuerpo{
+        background-image: url(../medios/imagencentralhome2.png);
+        background-position:center ;
+        background-size: cover;
+
+}
+.titulo-presentacion{
+    color: #000957;
+    font-size: 70px;
+    text-align: left;
+
+}
+.seccion1cuerpo h2{
+    color: #000957;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 25px;
+
+}
+
+.imagenestrellaamarilla {
+      width: 30px;
+  }
+
+.imagenestrellaazul {
+    width: 30px;
+
+}
+.seccion1cuerpo p{
+    color: #000957;
+    font-size: 20x;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 2%;
+
+}
+
+/* section 2 cuerpo home*/
+
+.seccion2cuerpo h2{
+    color: #ffeb00;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.titulomesfixture {
+    color: #344CB7;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    margin: 2%;
+}
+
+.seccion2cuerpo ol{
+    list-style-type: circle;
+    margin: 1%;
+}
+
+.partidosfixtureboca1 {
+    color: #ffeb00;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.partidosfixtureboca2 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* seccion 3 cuerpo home */
+.seccion3cuerpo h2 {
+    color: #ffeb00;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+.seccion3cuerpo p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+}
+
+.seccion3cuerpo h3{
+    color: #ffeb00;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+ /* BODY HISTORIA */
+/* div historia.html */
+
+.imagenhistoria {
+
+    width: 300px;
+    padding-top: 15px;
+}
+
+div ul {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 150px;
+    text-align: justify;
+}
+
+.historiah3 {
+    color: #ffeb00;
+    Font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 21px 21px 21px -4px rgba(52,76,183,0.78);
+}
+
+
+/* footer */
+footer {
+    background-color: #000957;
+}
+footer p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+.contacto {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #577BC1;
+    font-weight: 700;
+    text-align: left;
+}
+.rrss {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #577BC1;
+    font-weight: 700;
+    text-align: center;
+}
+.telefonoicono {
+    background-color: #000957;
+    padding: 20px;
+    width: 30px;
+    text-align: left;
+}
+
+.iconomail {
+    background-color: #000957;
+    padding: 20px;
+    width: 30px;
+    text-align: left;
+}
+
+.informacionicono {
+    background-color: #000957;
+    padding: 20px;
+    width: 30px;
+    text-align: left;
+}
+
+.ubicacionicono {
+    background-color: #000957;
+    padding: 20px;
+    width: 30px;
+    text-align: left;
+}
+
+.footerdivision2{
+    text-align: center;
+}
+.facebookicono {
+    background-color: #000957;
+    padding: 5%;
+    width: 30px;
+    text-align: center;
+    image-orientation: from-image;
+
+}
+
+.instagramicono {
+    background-color: #000957;
+    padding: 5%;
+    width: 30px;
+    text-align: center;
+}
+
+.xicono {
+    background-color: #000957;
+    padding: 5%;
+    width: 30px;
+    text-align: center;
+}
+
+.tiktokicono {
+    background-color: #000957;
+    padding: 5%;
+    width: 30px;
+    text-align: center;
+}
+
+
