@@ -17,7 +17,7 @@ header {
     padding: 10px;
     margin: 10px;
     }
-    
+
 header img {
     background-color: #000957;
     width: 150px;
@@ -126,7 +126,7 @@ p {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     margin: 2%;
-     
+
 
 }
 
@@ -150,7 +150,7 @@ p {
   background-color: #577BC1;
   border-radius: 10px;
   padding: 16px;
-  box-shadow: 0 2px 5px #000957(0,0,0,0.1);
+
 }
 
 .columna-mes h4 {
@@ -163,7 +163,7 @@ p {
 
 .columna-mes ul {
   list-style: none;
-  padding: 5px;
+  padding: 2px;
   border-radius: 6px;
 }
 
@@ -175,7 +175,7 @@ p {
   font-size: 20px;
   font-weight: bold;
   color: #577bc1;
-  
+
 }
 
 /* section 3 cuerpo home*/
@@ -194,15 +194,15 @@ p {
   margin: 15px;
 }
 
-.video-bloque {
+.video-canal {
   background: #ffffff;
   padding: 5%;
   border-radius: 12px;
   box-shadow: 0 5px 25px 5px #577bc1;
-  
+
 }
 
-.video-bloque iframe {
+.video-canal iframe {
   width: 100%;
   height: 450px;
   border-radius: 8px;
@@ -210,7 +210,7 @@ p {
   padding: 5px;
    }
 
-.video-bloque h3 {
+.video-canal h3 {
   font-size: 32px;
   margin-top: 32px;
   color: #003366;
@@ -219,10 +219,10 @@ p {
   margin-left: 5px;
 }
 
-.video-bloque p {
+.video-canal p {
   font-size: 20px;
   margin-top: 6px;
-  color: black;
+  color:#003366;
   text-align: justify;
 }
 
@@ -257,179 +257,174 @@ p{
     color: #003366;
 
 }
-/* css titulos*/
-.titulo-principal {
-    background-color: #000957;
-    color: #f9d342;
-    text-align: center;
-    padding: 40px 20px;
-}
+
+/* css pagina titulos*/
+
 
 .titulo-estrellas {
-    font-size: 60px;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-
-/* Contenedor principal */
-.contenedor-principal {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
-/* Sección de cada categoría */
-.seccion-categoria {
-    background-color: #ffffff;
-    border-left: 10px solid #000957;
-    border-radius: 10px;
-    padding: 20px 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-
-}
-
-
-
-/* Títulos de cada categoría */
-.categoria-titulo {
-    font-size: 28px;
-    margin-bottom: 15px;
-    color: #000957;
-    border-bottom: 2px solid #f9d342;
-    padding-bottom: 5px;
-}
-
-/* Lista de títulos */
-.lista-titulos {
-    list-style-type: "⭐";
-    padding-left: 20px;
-    font-size: 18px;
-    color: #333;
-}
-
-.lista-titulos li {
-    margin-bottom: 8px;
-}
-
-/* pagina titulos */
-.titulo-principal {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    }
-    .titulo-estrellas {
     text-align: center;
     font-size: 68px;
     font-weight: bold;
     border: #003366 10px solid;
-    padding: 3%;
+    padding: 40px 20px;
+    margin: 1%;
+    text-transform: uppercase;
     background-color: #003366;
-}
+    border-radius: 8px;
+    }
+
     .h2titulos{
     text-align: center;
     font-size: 45px;
     font-weight: bold;
-    border: #f9d342 10px solid;
+    border: #f9d342 5px solid;
     color: #f9d342;
     padding: 1%;
     margin: 1%;
-    }
+    border-radius: 8px;
+        }
 
 .contenedor-principal1 {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,300px);
+  grid-template-rows: repeat(2,400px);
   grid-template-areas: "area1 area2 area3"
-    "area4 area5 area6"
-    "area7 . area8 ";
+    "area4 area5 area6";
   gap: 20px;
   padding: 20px;
-}
+  }
+
 .contenedor-principal2 {
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(1,350px);
   gap: 20px;
   padding: 20px;
 }
 
+.contenedor-principal3 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(1,550px);
+  gap: 20px;
+  padding: 20px;
+}
+
+.categoria-titulo{
+font-size: 25px;
+font-weight: 550;
+  text-transform: uppercase;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  color: #f8f9fa;
+  text-align: center;
+  border-bottom: #f9d342 5px solid;
+  }
+
+.totales-titulo{
+font-size: 25px;
+font-weight: 550;
+  margin-top: 2%;
+  padding-bottom: 1.5%;
+  color: #f8f9fa;
+  text-align: center;
+  border-bottom: #f9d342 5px solid;
+}
+
 .seccion-categoria1 {
-  background-color: #f8f9fa;
+  background-color: #003366;
+  opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   grid-area: area1;
+  border: #f8f9fa 5px solid;
 }
 .seccion-categoria2 {
-  background-color: #f8f9fa;
+  background-color: #003366;
+  opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   grid-area: area2;
+  border: #f8f9fa 5px solid;
 }
 .seccion-categoria3 {
-  background-color: #f8f9fa;
+  background-color: #003366;
+  opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   grid-area: area3;
+  border: #f8f9fa 5px solid;
 }
 .seccion-categoria4 {
-  background-color: #f8f9fa;
+ background-color: #003366;
+  opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   grid-area: area4;
+  border: #f8f9fa 5px solid;
 }
 .seccion-categoria5 {
-  background-color: #f8f9fa;
+  background-color: #003366;
+  opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   grid-area: area5;
+  border: #f8f9fa 5px solid;
 }
 .seccion-categoria6 {
-  background-color: #f8f9fa;
+  background-color: #003366;
+  opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   grid-area: area6;
+  border: #f8f9fa 5px solid;
 }
 .seccion-categoria7 {
-  background-color: #f8f9fa;
+  background-color: #003366;
+  opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  grid-area: area7;
-}
+  border: #f8f9fa 5px solid;
+ }
 .seccion-categoria8 {
-  background-color: #f8f9fa;
+  background-color: #003366;
+  opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  grid-area: area8;
-}
-.categoria-titulo {
-  font-size: 1.4rem;
-  margin-bottom: 10px;
-  color: #002284;
-  text-align: center;
-}
+  border: #f8f9fa 5px solid;
+   }
+
+.seccion-categoria9 {
+  background-color: #003366;
+  opacity: 0.8;
+  border-radius: 12px;
+  padding: 5px;
+  border: #f8f9fa 5px solid;
+   }
+.seccion-categoria10 {
+  background-color: #003366;
+  opacity: 0.8;
+  border-radius: 12px;
+  padding: 5px;
+  border: #f8f9fa 5px solid;
+   }
 
 .lista-titulos {
   list-style: none;
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-size: 25px;
+  font-weight: 500;
   text-align: center;
 }
 
 .lista-titulos li {
   margin-bottom: 6px;
-  color: #333;
+  color: #f8f9fa;
 }
+ 
+
 /* footer */
 
 footer {
@@ -466,7 +461,7 @@ grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
-   
+
 }
 .info-item p{
     font-size: 20px;
@@ -489,7 +484,7 @@ grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   gap: 15px;
   margin-top: 10px;
-  
+
 }
 
 .footer-redes h3 {
