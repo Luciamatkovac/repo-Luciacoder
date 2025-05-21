@@ -13,7 +13,7 @@ font-family: "Poppins", sans-serif; */
 
 header {
     background-color: #000957;
-    border: white 15px solid;
+    border: white 5px solid;
     padding: 10px;
     margin: 10px;
     }
@@ -33,10 +33,10 @@ header img {
 header h1 {
     background-color: #000957;
     font-family: "Poppins", sans-serif;
-    font-size: 48px;
+    font-size: 45px;
     color: white;
        }
-
+  
 
 .menu-navegacion {
 display: flex;
@@ -54,14 +54,14 @@ background-color: #000957;
 }
 .menu-navegacion a {
   display: block;
-  padding: 15px 0;
+  padding: 8px;
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
-  border: white 5px solid;
-  margin: 10px;
+  border: white 2px solid;
+  margin: 3px;
   }
 
 /* BODY */
@@ -486,6 +486,61 @@ margin: 40px auto;
   width: 80%;
 }
 
+/* CSS pagina ESTADIO */
+
+
+.seccion-estadio h1{
+  color: #f9d342;
+  border-bottom: #f9d342 2px solid;
+  padding-bottom: 2%;
+  padding-top: 5%;
+margin: 15px;
+font-size: 48px;
+text-align: center;
+}
+
+.Informacion-especifica {
+ background-color: #eaf3ff;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 8px;
+  border: #000957 15px double;
+  }
+
+.seccion-estadio h2{
+  text-align: center;
+  color: #577BC1;
+  border-bottom: #577BC1 5px solid;
+  font-size: 45px;
+}
+
+.seccion-estadio p{
+  font-size: 20px;
+  text-align: justify;
+  }
+
+.historia-estadio {
+  background-color: #eaf3ff;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 8px;
+   border: #000957 15px double;
+}
+
+.curiosidades-estadio {
+background-color: #eaf3ff;
+padding: 5%;
+margin: 5%;
+border-radius: 8px;
+ border: #000957 15px double;
+  }
+
+  .curiosidades-estadio li{
+ font-size: 20px;
+  text-align: justify;
+list-style-type: circle;
+
+  }
 
 /* footer */
 
