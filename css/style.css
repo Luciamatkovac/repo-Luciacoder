@@ -229,33 +229,65 @@ p {
  /* BODY HISTORIA */
 /* div historia.html */
 
-.imagenhistoria {
-
-    width: 300px;
-    padding-top: 15px;
+.pagina-historia{
+  background-color: #000957;
 }
 
-div ul {
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 150px;
-    text-align: justify;
-    background-color: #000957;
+.pagina-historia h1{
+  color: #f9d342;
+  font-size: 3rem;
+  text-align: center;
+  padding: 5%;
+  
+}
+.accordion-body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.historiasflex{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 10px;
+ margin-bottom: 20px;
+    }
+
+.imagenhistoria{
+  width: 280px;
+  height: auto;
+  border-radius: 6px;
+ }
+
+
+.accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: #577bc1;
+  --bs-accordion-active-color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  
 }
 
-.historiah3 {
-    color: #ffeb00;
-    Font-family: "Poppins", sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: #000957;
+.accordion-button {
+  --bs-accordion-btn-bg: #000957;
+  --bs-accordion-btn-color:#fff;
+  text-transform: uppercase;
+  
+   
+}
+.accordion-body h3{
+  color: #003366;
+  font-size: 36px;
+  text-align: center;
+  border-bottom: #f9d342 3px solid;
 
 }
 
-p{
-    color: #003366;
-
+.accordion-body p{
+  color: #003366;
+  font-size: 18px;
+  margin: 2% 5%;
+  
 }
 
 /* css pagina titulos*/
