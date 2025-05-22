@@ -241,8 +241,17 @@ p {
   background-color: #000957;
   
 }
+.titulohistoriah2 {
+  color: #f9d342;
+  border-bottom: #f9d342 2px solid;
+  padding-bottom: 2%;
+  padding-top: 2%;
+margin: 15px;
+font-size: 68px;
+text-align: center;
+}
 
-.pagina-historia h1{
+.pagina-historia h3{
 color: #f9d342;
 border-bottom: #f9d342 2px solid;
 padding-bottom: 2%;
@@ -252,6 +261,8 @@ font-size: 48px;
 text-align: center;
 font-weight: bold;
 }
+
+
 
 .historiasflex{
  display: flex;
@@ -780,7 +791,12 @@ text-align: justify;
 }
 
 /* mediaQ en pagina Historia */
-.pagina-historia h1{
+.titulohistoriah2 {
+  font-size: 2rem;
+  
+}
+
+.pagina-historia h3{
   font-size: 2rem;
   
 }
