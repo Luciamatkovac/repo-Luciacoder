@@ -194,6 +194,7 @@ p {
     color: #f9d342;
     margin-top: 5%;
 }
+
 .grid-canal {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
