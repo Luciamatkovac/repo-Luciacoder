@@ -31,8 +31,10 @@ header img {
 header h1 {
     background-color: #000957;
     font-family: "Poppins", sans-serif;
-    font-size: 55px;
+    font-size: 48px;
     color: white;
+    font-weight: bold;
+    
 
        }
 
@@ -72,8 +74,7 @@ body {
 h1 {
     color: #577BC1;
     Font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-weight: bold;
+       font-weight: bold;
     margin-inline-start: 2%;
 }
 
