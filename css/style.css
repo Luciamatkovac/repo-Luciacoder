@@ -35,6 +35,7 @@ header h1 {
     font-family: "Poppins", sans-serif;
     font-size: 45px;
     color: white;
+    
        }
   
 
@@ -172,9 +173,10 @@ p {
   margin: 8px;
   padding: 10px;
   border-radius: 6px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #577bc1;
+  text-align: justify;
 
 }
 
@@ -195,6 +197,8 @@ p {
 }
 
 .video-canal {
+  display: grid;
+  justify-items: center;
   background: #ffffff;
   padding: 5%;
   border-radius: 12px;
@@ -204,24 +208,24 @@ p {
 
 .video-canal iframe {
   width: 100%;
-  height: 450px;
+  height: 300px;
   border-radius: 8px;
   border: #f9d342 7px solid;
   padding: 5px;
    }
 
 .video-canal h3 {
-  font-size: 32px;
-  margin-top: 32px;
+  font-size: 25px;
+  margin-top: 12px;
   color: #003366;
   text-transform: uppercase;
-  border-bottom: #003366 3px solid;
-  margin-left: 5px;
+  border-bottom: #003366 4px solid;
+  text-align: center;
 }
 
 .video-canal p {
   font-size: 20px;
-  margin-top: 6px;
+  margin: 0;
   color:#003366;
   text-align: justify;
 }
@@ -594,10 +598,6 @@ footer h3{
     margin-top: 45px;
 }
 
-.footer-grid-contenedor{
-  display: grid;
-  gap: 30px;
-}
 
 .footer-grid-contacto{
 display: grid;
@@ -658,3 +658,131 @@ grid-template-columns: repeat(2, 1fr);
   color: white;
 }
 
+/* mediaQ */
+@media (max-width:480px){
+
+  /*media para header  */
+  header {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+header img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+header h1 {
+  font-size: 28px;
+  }
+
+.menu-navegacion {
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0 ;
+  padding: 2%;
+
+}
+
+.menu-navegacion a {
+  font-size: 12px;
+  
+}
+/* media para seccion1 index */
+.titulo-presentacion{
+  font-size: 50px;
+}
+.seccion1cuerpo h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.texto-bienvenidaweb p{
+  font-size: 12px;
+  
+}
+
+/* media para seccion2 index */
+.seccion2cuerpo h2{
+  font-size: 25px;
+  border-top: wheat 2px solid ;
+    border-bottom: wheat 2px solid ;
+}
+.meses-grid {
+  grid-template-columns: repeat(1, 1fr);
+  margin: 1%;
+  width: 100%;
+}
+.columna-mes{
+  padding: 5px;
+}
+.columna-mes h4 {
+  font-size: 20px;
+  margin-top: 5px;
+  }
+.columna-mes li {
+font-size: 12px;
+text-align: justify;
+}
+
+/* media para seccion3 index */
+.seccion3cuerpo h2 {
+  font-size: 25px;
+  border-top: wheat 2px solid ;
+  border-bottom: wheat 2px solid ;
+}
+.grid-canal {
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+}
+
+.video-canal iframe {
+  width: 100%;
+  height: 250px;
+  padding: 2%;
+  border: #f9d342 4px solid;
+}
+.video-canal h3 {
+  font-size: 16px;
+  margin-top: 6px;
+  text-align: justify;
+ }
+   
+.video-canal p {
+  font-size: 14px;
+  margin: 2.5px;
+}
+
+/* mediaQ en footer */
+footer h3{
+  font-size: 25px;
+  border-top: #577BC1 2px solid ;
+    border-bottom: #577BC1 2px solid ;
+    margin-top: 25px;
+}
+.footer-grid-contacto{
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.info-item p{
+  font-size: 12px;
+  margin: 0 ;
+}
+.info-item img {
+  width: 22px;
+  height: 22px;
+  }
+.footer-redes h3 {
+  font-size: 20px;
+   border-top: #577BC1 2px solid ;
+    border-bottom: #577BC1 2px solid ;
+    margin-top: 25px;
+}
+.redes-icons img {
+  width: 30px;
+  }
+}
