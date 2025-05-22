@@ -684,8 +684,8 @@ grid-template-columns: repeat(2, 1fr);
   }
 
 header img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto;
   display: block;
 }
@@ -693,18 +693,20 @@ header img {
 
 header h1 {
   font-size: 28px;
-  }
+    }
 
 .menu-navegacion {
   flex-direction: column;
   align-items: stretch;
   margin: 0 ;
-  padding: 2%;
+  padding: 1%;
+
 
 }
 
 .menu-navegacion a {
   font-size: 12px;
+  padding: 0;
 
 }
 /* media para seccion1 index */
