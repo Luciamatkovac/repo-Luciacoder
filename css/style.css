@@ -35,9 +35,9 @@ header h1 {
     font-family: "Poppins", sans-serif;
     font-size: 45px;
     color: white;
-    
+
        }
-  
+
 
 .menu-navegacion {
 display: flex;
@@ -69,7 +69,7 @@ background-color: #000957;
 body {
     background-color: #000957;
     font-family: "Poppins", sans-serif;
-}
+        }
 
 h1 {
     color: #577BC1;
@@ -242,7 +242,7 @@ p {
   font-size: 3rem;
   text-align: center;
   padding: 5%;
-  
+
 }
 .accordion-body{
   width: 100%;
@@ -270,15 +270,15 @@ p {
   --bs-accordion-active-color: #fff;
   font-size: 1.5rem;
   text-transform: uppercase;
-  
+
 }
 
 .accordion-button {
   --bs-accordion-btn-bg: #000957;
   --bs-accordion-btn-color:#fff;
   text-transform: uppercase;
-  
-   
+
+
 }
 .accordion-body h3{
   color: #003366;
@@ -292,7 +292,7 @@ p {
   color: #003366;
   font-size: 18px;
   margin: 2% 5%;
-  
+
 }
 
 /* css pagina titulos*/
@@ -460,7 +460,7 @@ font-weight: 550;
   margin-bottom: 6px;
   color: #f8f9fa;
 }
- 
+
 
 /* css pagina hinchada*/
 
@@ -499,7 +499,7 @@ font-weight: 550;
     font-size: 55px;
     color: #f9d342;
      }
-     
+
 .sectionbocaenelmundo{
     margin-left: 10%;
     margin-right: 10%;
@@ -665,7 +665,7 @@ grid-template-columns: repeat(2, 1fr);
   header {
     flex-direction: column;
     text-align: center;
-    
+    margin:0;
   }
 
 header img {
@@ -690,7 +690,7 @@ header h1 {
 
 .menu-navegacion a {
   font-size: 12px;
-  
+
 }
 /* media para seccion1 index */
 .titulo-presentacion{
@@ -703,7 +703,7 @@ header h1 {
 
 .texto-bienvenidaweb p{
   font-size: 12px;
-  
+
 }
 
 /* media para seccion2 index */
@@ -714,7 +714,7 @@ header h1 {
 }
 .meses-grid {
   grid-template-columns: repeat(1, 1fr);
-  margin: 1%;
+  margin: 0%;
   width: 100%;
 }
 .columna-mes{
@@ -734,10 +734,12 @@ text-align: justify;
   font-size: 25px;
   border-top: wheat 2px solid ;
   border-bottom: wheat 2px solid ;
+  margin: 0;
 }
 .grid-canal {
   grid-template-columns: repeat(1, 1fr);
   width: 100%;
+  
 }
 
 .video-canal iframe {
@@ -751,7 +753,7 @@ text-align: justify;
   margin-top: 6px;
   text-align: justify;
  }
-   
+
 .video-canal p {
   font-size: 14px;
   margin: 2.5px;
@@ -762,7 +764,7 @@ footer h3{
   font-size: 25px;
   border-top: #577BC1 2px solid ;
     border-bottom: #577BC1 2px solid ;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .footer-grid-contacto{
   grid-template-columns: repeat(1, 1fr);
