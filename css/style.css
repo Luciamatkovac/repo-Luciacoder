@@ -659,7 +659,7 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 /* mediaQ */
-@media (max-width:480px){
+@media (max-width:500px){
 
   /*media para header  */
   header {
@@ -738,8 +738,7 @@ text-align: justify;
 }
 .grid-canal {
   grid-template-columns: repeat(1, 1fr);
-  width: 100%;
-  
+    
 }
 
 .video-canal iframe {
@@ -764,15 +763,17 @@ footer h3{
   font-size: 25px;
   border-top: #577BC1 2px solid ;
     border-bottom: #577BC1 2px solid ;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .footer-grid-contacto{
   grid-template-columns: repeat(1, 1fr);
+  
 }
 
 .info-item p{
   font-size: 12px;
-  margin: 0 ;
+  margin: 0;
 }
 .info-item img {
   width: 22px;
@@ -782,7 +783,7 @@ footer h3{
   font-size: 20px;
    border-top: #577BC1 2px solid ;
     border-bottom: #577BC1 2px solid ;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .redes-icons img {
   width: 30px;
