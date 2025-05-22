@@ -28,12 +28,13 @@ header img {
     align-items: center;
     }
 
-header h1 {
+.headerboca {
     background-color: #000957;
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     color: white;
     font-weight: bold;
+
            }
 
 
@@ -705,9 +706,10 @@ header img {
 }
 
 
-header h1 {
+.headerboca{
   font-size: 28px;
-  
+  text-align: center;
+
     }
 
 .menu-navegacion {
