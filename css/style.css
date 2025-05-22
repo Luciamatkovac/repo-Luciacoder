@@ -235,6 +235,7 @@ p {
 
 .pagina-historia{
   background-color: #000957;
+  width: 100%;
 }
 
 .pagina-historia h1{
@@ -242,6 +243,8 @@ p {
   font-size: 3rem;
   text-align: center;
   padding: 5%;
+  border-bottom: #fff 5px double;
+
 
 }
 .accordion-body{
@@ -264,7 +267,9 @@ p {
   border-radius: 6px;
  }
 
-
+#accordionFlushExample {
+  padding: 2% 5%;
+}
 .accordion-button:not(.collapsed) {
   --bs-accordion-active-bg: #577bc1;
   --bs-accordion-active-color: #fff;
@@ -273,13 +278,21 @@ p {
 
 }
 
-.accordion-button {
-  --bs-accordion-btn-bg: #000957;
-  --bs-accordion-btn-color:#fff;
+.accordion-button.collapsed {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-top: 2px solid #577bc1;
+  border-bottom: 2px solid #577bc1;
+  border-left: none;
+  border-right: none;
+  background-color: #f9d44288;
+  --bs-accordion-btn-color: #000957;
   text-transform: uppercase;
 
-
 }
+
+
+
 .accordion-body h3{
   color: #003366;
   font-size: 36px;
@@ -294,6 +307,8 @@ p {
   margin: 2% 5%;
 
 }
+
+
 
 /* css pagina titulos*/
 
@@ -681,7 +696,7 @@ header h1 {
   }
 
 .menu-navegacion {
-  flex-direction: column;
+  flex-direction: row;
   align-items: stretch;
   margin: 0 ;
   padding: 2%;
@@ -738,7 +753,7 @@ text-align: justify;
 }
 .grid-canal {
   grid-template-columns: repeat(1, 1fr);
-    
+
 }
 
 .video-canal iframe {
@@ -758,6 +773,11 @@ text-align: justify;
   margin: 2.5px;
 }
 
+/* mediaQ en pagina Historia */
+.pagina-historia h1{
+  font-size: 2rem;
+}
+
 /* mediaQ en footer */
 footer h3{
   font-size: 25px;
@@ -768,7 +788,7 @@ footer h3{
 }
 .footer-grid-contacto{
   grid-template-columns: repeat(1, 1fr);
-  
+
 }
 
 .info-item p{
@@ -788,4 +808,6 @@ footer h3{
 .redes-icons img {
   width: 30px;
   }
+
+
 }
