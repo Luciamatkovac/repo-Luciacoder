@@ -336,7 +336,7 @@ font-weight: bold;
 .contenedor-principal1 {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2,400px);
+  grid-template-rows: repeat(2,auto);
   grid-template-areas: "area1 area2 area3"
     "area4 area5 area6";
   gap: 20px;
@@ -346,7 +346,7 @@ font-weight: bold;
 .contenedor-principal2 {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(1,350px);
+  grid-template-rows: repeat(1,auto);
   gap: 20px;
   padding: 20px;
 }
@@ -354,7 +354,7 @@ font-weight: bold;
 .contenedor-principal3 {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-grid-template-rows: repeat(1,550px);
+grid-template-rows: repeat(1,auto);
   gap: 20px;
   padding: 20px;
 }
@@ -532,7 +532,7 @@ font-weight: 550;
 
 .imagenesla12{
 margin: 40px auto;
-  width: 80%;
+width: 80%;
 }
 
 /* CSS pagina ESTADIO */
@@ -568,6 +568,8 @@ text-align: center;
   text-align: justify;
   color: #000957;
   }
+
+
 
 .historia-estadio {
   background-color: #eaf3ff;
@@ -695,7 +697,7 @@ header h1 {
 .menu-navegacion {
   flex-direction: column;
   align-items: stretch;
-  margin: 0 ;
+  margin: 0% 1% ;
   padding: 1%;
 
 
@@ -803,6 +805,135 @@ font-size: 1.5rem;
 font-size: 0.8rem;
    }
 
+   /* mediaQ en pagina Estadio */
+
+   .seccion-estadio h1{
+    font-size: 1.5rem;
+    border-bottom: #f9d342 1px solid;
+   }
+
+   .seccion-estadio h2{
+    font-size: 1.5rem;
+    border-bottom: #577BC1 2px solid;
+   }
+
+ .seccion-estadio p{
+  font-size: 14px;
+  padding: 0%;
+  margin: 1%;
+     
+ }  
+ #palineacion{
+  text-align: left;
+ }
+
+
+.curiosidades-estadio li{
+  font-size: 14px;
+
+}
+
+.curiosidades-estadio ul{
+  margin: 3%;
+  padding: 0%;
+}
+
+/* mediaQ en Hinchada boca */
+.paginahinchada h1{
+  font-size: 1.5rem;
+  padding: 15px 15px;
+  margin: 0% 3%;
+}
+.paginahinchada h2{
+  font-size: 1rem;
+  padding: 7.5px 55px;
+  margin: 0% 3%;
+}
+.sectionla12{
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+.sectionla12 h2{
+  font-size: 20px;
+  }
+.sectionbocaenelmundo{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ .sectionbocaenelmundo h2{
+  font-size: 20px;
+   border-top: #f9d442 2px solid;
+ }
+
+ .textoshinchada p{
+  font-size: 14px;
+  }
+
+/* mediaQ pagina titulos */
+
+.titulo-estrellas{
+  font-size: 1.5rem;
+  margin: 0% 3%;
+  padding: 20px 10px;
+}
+
+.h2titulos{
+  font-size: 20px;
+  margin: 3% 3%;
+  padding: 1%;
+   border: #f9d342 2px solid;
+}
+
+.contenedor-principal1 {
+grid-template-columns: repeat(1,1fr);
+grid-template-rows: repeat(6,auto);
+grid-template-areas: "area1"
+"area2"
+"area3"
+"area4"
+"area5"
+"area6";
+gap: 10px;
+}
+
+.contenedor-principal2 {
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(2,auto);
+  gap: 10px;
+  padding: 20px;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+.contenedor-principal3 {
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(1,auto);
+  gap: 20px;
+  padding: 20px;
+}
+
+.seccion-categoria1, .seccion-categoria2, .seccion-categoria3, .seccion-categoria4, .seccion-categoria5, .seccion-categoria6, .seccion-categoria7, .seccion-categoria8, .seccion-categoria9, .seccion-categoria10 {
+  border: #f8f9fa 3px solid;
+} 
+.categoria-titulo{
+  font-size: 14px;
+  border-bottom: #f9d342 2px solid;
+}
+
+.totales-titulo{
+  font-size: 14px;
+  border-bottom: #f9d342 2px solid;
+ 
+}
+
+.lista-titulos {
+  font-size: 14px;
+  font-weight: 350;
+  }
+
+
+  
 /* mediaQ en footer */
 footer h3{
   font-size: 25px;
