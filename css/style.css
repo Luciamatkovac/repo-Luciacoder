@@ -192,6 +192,7 @@ p {
     text-align: center;
     font-size: 45px;
     color: #f9d342;
+    margin-top: 5%;
 }
 .grid-canal {
   display: grid;
