@@ -3,7 +3,7 @@
 /* CSS pagina ESTADIO */
 
 .seccion-estadio{
-.seccion-estadio h1{
+h1{
   color: #f9d342;
   border-bottom: #f9d342 2px solid;
   padding-bottom: 2%;
@@ -13,14 +13,14 @@ font-size: 48px;
 text-align: center;
 }
 
-.seccion-estadio h2{
+h2{
   text-align: center;
   color: #577BC1;
   border-bottom: #577BC1 5px solid;
   font-size: 45px;
 }
 
-.seccion-estadio p{
+p{
   font-size: 20px;
   text-align: justify;
   color: #000957;
@@ -28,7 +28,7 @@ text-align: center;
 }
 
 
-.Informacion-especifica {
+.Informacion-especifica, .historia-estadio, .curiosidades-estadio {
  background-color: #eaf3ff;
   padding: 5%;
   margin: 5%;
@@ -36,22 +36,10 @@ text-align: center;
   border: #000957 15px double;
   }
 
-  .historia-estadio {
-  background-color: #eaf3ff;
-  padding: 5%;
-  margin: 5%;
-  border-radius: 8px;
-   border: #000957 15px double;
-}
 
-.curiosidades-estadio {
-background-color: #eaf3ff;
-padding: 5%;
-margin: 5%;
-border-radius: 8px;
- border: #000957 15px double;
 
- .curiosidades-estadio li{
+ .curiosidades-estadio {
+  li{
  font-size: 20px;
   text-align: justify;
 list-style-type: circle;

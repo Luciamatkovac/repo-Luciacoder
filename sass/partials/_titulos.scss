@@ -1,6 +1,8 @@
 @use "./variables" as*;
 
 /* css pagina titulos*/
+
+.pagina-titulos {
 .titulo-estrellas {
     text-align: center;
     font-size: 68px;
@@ -12,9 +14,9 @@
     background-color: #003366;
     border-radius: 8px;
     color: #fff;
-    }
+  }
 
-    .h2titulos{
+     .h2titulos {
     text-align: center;
     font-size: 45px;
     font-weight: bold;
@@ -23,16 +25,11 @@
     padding: 1%;
     margin: 1%;
     border-radius: 8px;
-    }
+  }
 
-   .contenedor-principal1 {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2,auto);
-  grid-template-areas: "area1 area2 area3"
-    "area4 area5 area6";
-  gap: 20px;
-  padding: 20px;
+  .contenedor-principal1,
+  .contenedor-principal2,
+  .contenedor-principal3 { 
 
   .categoria-titulo{
 font-size: 25px;
@@ -65,108 +62,92 @@ font-weight: 550;
   text-align: center;
 }
 
-.lista-titulos li {
+li {
   margin-bottom: 6px;
   color: #f8f9fa;
 }
+}
+  }
 
-.seccion-categoria1 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  grid-area: area1;
-  border: #f8f9fa 5px solid;
-}
-.seccion-categoria2 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  grid-area: area2;
-  border: #f8f9fa 5px solid;
-}
-.seccion-categoria3 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  grid-area: area3;
-  border: #f8f9fa 5px solid;
-}
-.seccion-categoria4 {
- background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  grid-area: area4;
-  border: #f8f9fa 5px solid;
-}
-.seccion-categoria5 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  grid-area: area5;
-  border: #f8f9fa 5px solid;
-}
-.seccion-categoria6 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  grid-area: area6;
-  border: #f8f9fa 5px solid;
-}
-
-  } 
-
-  .contenedor-principal2 {
+.contenedor-principal1 {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(1,auto);
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,auto);
+  grid-template-areas: 
+    "area1 area2 area3"
+    "area4 area5 area6";
   gap: 20px;
   padding: 20px;
-
-  .seccion-categoria7 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  border: #f8f9fa 5px solid;
- }
-
-.seccion-categoria8 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  border: #f8f9fa 5px solid;
-   }
 }
-
+.contenedor-principal2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 20px;
+    padding: 20px;
+}
 .contenedor-principal3 {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(1,auto);
-  gap: 20px;
-  padding: 20px;
-
-  .seccion-categoria9 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  border: #f8f9fa 5px solid;
-   }
-.seccion-categoria10 {
-  background-color: #003366;
-  opacity: 0.8;
-  border-radius: 12px;
-  padding: 5px;
-  border: #f8f9fa 5px solid;
-   }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 20px;
+    padding: 20px;
 }
+
+.seccion-categoria-base {
+  background-color: #003366;
+  opacity: 0.8;
+  border-radius: 12px;
+  padding: 5px;
+  border: #f8f9fa 5px solid;
+}
+
+/*categorias de 1 a 6*/
+
+.seccion-categoria1 { 
+  @extend .seccion-categoria-base; 
+  grid-area: area1; 
+}
+    
+.seccion-categoria2 { 
+  @extend .seccion-categoria-base;
+  grid-area: area2; 
+}
+.seccion-categoria3 { 
+ @extend .seccion-categoria-base; 
+ grid-area: area3;
+}
+.seccion-categoria4 { 
+@extend .seccion-categoria-base; 
+grid-area: area4;
+}
+.seccion-categoria5 { 
+@extend .seccion-categoria-base; 
+grid-area: area5;
+}
+.seccion-categoria6 { 
+@extend .seccion-categoria-base; 
+grid-area: area6;
+}
+ 
+/*categorias de 7 a 8*/
+
+.seccion-categoria7 { 
+@extend .seccion-categoria-base; 
+}
+.seccion-categoria8 { 
+@extend .seccion-categoria-base; 
+}
+
+/*categorias de 9 a 10 */   
+.seccion-categoria9 { 
+@extend .seccion-categoria-base; 
+}
+.seccion-categoria10 { 
+@extend .seccion-categoria-base; 
+}
+  
+
 
     
 
