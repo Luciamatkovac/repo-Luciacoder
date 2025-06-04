@@ -1,11 +1,8 @@
 @use "../partials/variables" as*;
 
-*{
-  margin:0%;
-  padding:0%;
-}
+/*header*/
 
-header {
+.encabezado {
     background-color: #000957;
    
     .textos-header{
@@ -30,7 +27,7 @@ header {
     margin-bottom: 0;
     } 
     }
-    }
+  
 
    .menu-navegacion {
 display: flex;
@@ -41,11 +38,11 @@ padding: 1%;
 margin: 1%;
 background-color: #000957;
 
-.menu-navegacion li {
+li {
   flex: 10px ;
   text-align: center;
-}
-.menu-navegacion a {
+
+  a {
   display: block;
   padding: 8px;
   color: white;
@@ -55,7 +52,14 @@ background-color: #000957;
   font-size: 30px;
   border: white 2px solid;
   margin: 3px;
-}
-  } 
 
-  
+  &:hover {
+          background-color: white;
+          color: #000957;
+        }
+}
+}
+
+} 
+
+}
