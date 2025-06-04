@@ -112,7 +112,7 @@ p {
     margin: 2%;
 
 }
-.seccion1cuerpo h3{
+.seccion1cuerpo h2{
     color: #000957;
     text-align: center;
     font-size: 50px;
@@ -227,6 +227,7 @@ p {
   text-transform: uppercase;
   border-bottom: #003366 4px solid;
   text-align: center;
+  border-top: none;
 }
 
 .video-canal p {
@@ -246,7 +247,7 @@ p {
   background-color: #000957;
   
 }
-.titulohistoriah2 {
+.titulohistoriah1 {
   color: #f9d342;
   border-bottom: #f9d342 2px solid;
   padding-bottom: 2%;
@@ -283,28 +284,32 @@ font-weight: bold;
   border-radius: 6px;
  }
 
+
 #accordionFlushExample {
   padding: 2% 5%;
-}
+  }
+
+
+
 .accordion-button:not(.collapsed) {
   --bs-accordion-active-bg: #577bc1;
   --bs-accordion-active-color: #fff;
   font-size: 1.5rem;
   text-transform: uppercase;
-
+  
 }
 
 .accordion-button.collapsed {
   font-size: 1.5rem;
   font-weight: 600;
-  border-top: 2px solid #577bc1;
-  border-bottom: 2px solid #577bc1;
-  border-left: none;
-  border-right: none;
+  border-top: 4px solid #577bc1;
+  border-bottom: 4px solid #577bc1;
+  border-left: 4px solid #577bc1;
+  border-right: 4px solid #577bc1;
   background-color: #f9d442b6;
-  --bs-accordion-btn-color: #000957;
+  color: #000957;
   text-transform: uppercase;
-
+  
 }
 
 
@@ -339,9 +344,10 @@ font-weight: bold;
     text-transform: uppercase;
     background-color: #003366;
     border-radius: 8px;
+    color: #fff;
     }
 
-    .h3titulos{
+    .h2titulos{
     text-align: center;
     font-size: 45px;
     font-weight: bold;
@@ -454,6 +460,7 @@ font-weight: 550;
   padding: 5px;
   border: #f8f9fa 5px solid;
  }
+
 .seccion-categoria8 {
   background-color: #003366;
   opacity: 0.8;
@@ -495,7 +502,7 @@ font-weight: 550;
 
 /* css pagina hinchada*/
 
-.paginahinchada h2{
+.paginahinchada h1{
     text-align: center;
     font-size: 68px;
     font-weight: bold;
@@ -508,7 +515,7 @@ font-weight: 550;
     color: #f8f9fa;
     }
 
- .paginahinchada h3 {
+ .paginahinchada h2 {
     text-align: center;
     font-size: 45px;
     font-weight: bold;
@@ -559,7 +566,7 @@ width: 80%;
 /* CSS pagina ESTADIO */
 
 
-.seccion-estadio h2{
+.seccion-estadio h1{
   color: #f9d342;
   border-bottom: #f9d342 2px solid;
   padding-bottom: 2%;
@@ -577,7 +584,7 @@ text-align: center;
   border: #000957 15px double;
   }
 
-.seccion-estadio h3{
+.seccion-estadio h2{
   text-align: center;
   color: #577BC1;
   border-bottom: #577BC1 5px solid;
@@ -736,7 +743,7 @@ header img {
 .titulo-presentacion{
   font-size: 50px;
 }
-.seccion1cuerpo h3{
+.seccion1cuerpo h2{
   font-size: 30px;
   font-weight: 600;
 }
@@ -799,7 +806,7 @@ text-align: justify;
 }
 
 /* mediaQ en pagina Historia */
-.titulohistoriah2 {
+.titulohistoriah1 {
   font-size: 2rem;
   
 }
@@ -836,12 +843,12 @@ font-size: 0.8rem;
 
    /* mediaQ en pagina Estadio */
 
-   .seccion-estadio h2{
+   .seccion-estadio h1{
     font-size: 1.5rem;
     border-bottom: #f9d342 1px solid;
    }
 
-   .seccion-estadio h3{
+   .seccion-estadio h2{
     font-size: 1.5rem;
     border-bottom: #577BC1 2px solid;
    }
@@ -868,12 +875,12 @@ font-size: 0.8rem;
 }
 
 /* mediaQ en Hinchada boca */
-.paginahinchada h2{
+.paginahinchada h1{
   font-size: 1.5rem;
   padding: 15px 15px;
   margin: 0% 3%;
 }
-.paginahinchada h3{
+.paginahinchada h2{
   font-size: 1rem;
   padding: 7.5px 55px;
   margin: 0% 3%;
@@ -906,7 +913,7 @@ font-size: 0.8rem;
   padding: 20px 10px;
 }
 
-.h3titulos{
+.h2titulos{
   font-size: 20px;
   margin: 3% 3%;
   padding: 1%;

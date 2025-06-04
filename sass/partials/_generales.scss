@@ -1,0 +1,30 @@
+@use "../partials/variables" as*;
+
+*{
+  margin:0%;
+  padding:0%
+}
+
+body {
+    background-color: #000957;
+    font-family: "Poppins", sans-serif;
+        }
+
+
+h2 {
+    color: white;
+    Font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    }
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: 200px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.historiabgcolor{
+  background-color: #000957;
+}

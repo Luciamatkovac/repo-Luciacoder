@@ -1,9 +1,14 @@
+@use "partials/generales";
 @use "partials/header";
-@use "partials/index";
-@use "partials/estadio";
-@use "partials/hinchada";
+
+@use "partials/seccion1index";
+@use "partials/seccion2index";
+@use "partials/seccion3index";
 @use "partials/historia";
 @use "partials/titulos";
+@use "partials/hinchada";
+@use "partials/estadio";
+
 @use "partials/footer";
 @use "partials/mediaq";
 

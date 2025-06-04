@@ -1,0 +1,83 @@
+@use "./variables" as*;
+
+/* BODY HISTORIA */
+/* div historia.html */
+
+.pagina-historia{
+  background-color: #000957;
+  
+  .titulohistoriah1 {
+  color: #f9d342;
+  border-bottom: #f9d342 2px solid;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin: 15px;
+  font-size: 68px;
+  text-align: center;
+}
+#accordionFlushExample {
+  padding: 2% 5%;
+  
+  .accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: #577bc1;
+  --bs-accordion-active-color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  
+}
+
+.accordion-button.collapsed {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-top: 4px solid #577bc1;
+  border-bottom: 4px solid #577bc1;
+  border-left: 4px solid #577bc1;
+  border-right: 4px solid #577bc1;
+  background-color: #f9d442b6;
+  color: #000957;
+  text-transform: uppercase;
+  
+}
+.accordion-body h3{
+  color: #003366;
+  font-size: 36px;
+  text-align: center;
+  border-bottom: #f9d342 3px solid;
+
+}
+
+.accordion-body p{
+  color: #003366;
+  font-size: 18px;
+  margin: 2% 5%;
+
+}
+
+.pagina-historia h3{
+color: #f9d342;
+border-bottom: #f9d342 2px solid;
+padding-bottom: 2%;
+padding-top: 2%;
+margin: 15px;
+font-size: 48px;
+text-align: center;
+font-weight: bold;
+}
+}
+.historiasflex{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 10px;
+ margin-bottom: 20px;
+ 
+ .imagenhistoria{
+  width: 280px;
+  height: auto;
+  border-radius: 6px;
+ }
+ }
+}
+
+
+
