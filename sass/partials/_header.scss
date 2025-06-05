@@ -2,21 +2,22 @@
 
 /*header*/
 
-.encabezado {
+
+header {
     background-color: #000957;
    
     .textos-header{
     display: flex;
     align-items: center;
     
-    header img {
+    img {
     background-color: #000957;
     width: 150px;
     height: auto;
     margin: 2% 2%;
     }
-    
-    .headerboca {
+      }
+    p{
     background-color: #000957;
     font-family: "Poppins", sans-serif;
     font-size: 48px;
@@ -62,4 +63,3 @@ li {
 
 } 
 
-}

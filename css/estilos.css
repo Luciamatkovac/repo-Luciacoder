@@ -32,20 +32,20 @@ p {
 }
 
 /*header*/
-.encabezado {
+header {
   background-color: #000957;
 }
-.encabezado .textos-header {
+header .textos-header {
   display: flex;
   align-items: center;
 }
-.encabezado .textos-header header img {
+header .textos-header img {
   background-color: #000957;
   width: 150px;
   height: auto;
   margin: 2% 2%;
 }
-.encabezado .textos-header .headerboca {
+header p {
   background-color: #000957;
   font-family: "Poppins", sans-serif;
   font-size: 48px;
@@ -55,7 +55,8 @@ p {
   line-height: 1.2;
   margin-bottom: 0;
 }
-.encabezado .menu-navegacion {
+
+.menu-navegacion {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,11 +65,11 @@ p {
   margin: 1%;
   background-color: #000957;
 }
-.encabezado .menu-navegacion li {
+.menu-navegacion li {
   flex: 10px;
   text-align: center;
 }
-.encabezado .menu-navegacion li a {
+.menu-navegacion li a {
   display: block;
   padding: 8px;
   color: white;
@@ -79,7 +80,7 @@ p {
   border: white 2px solid;
   margin: 3px;
 }
-.encabezado .menu-navegacion li a:hover {
+.menu-navegacion li a:hover {
   background-color: white;
   color: #000957;
 }
@@ -553,21 +554,22 @@ footer h3 {
 }
 
 /*media para header  */
-header {
-  flex-direction: column;
-  text-align: center;
-  margin: 0;
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  header img {
+    width: 80px;
+    height: auto;
+  }
+  p {
+    font-size: 28px;
+    text-align: center;
+    padding: 1%;
+  }
 }
-header img {
-  width: 80px;
-  height: auto;
-}
-header .headerboca {
-  font-size: 28px;
-  text-align: center;
-  padding: 1%;
-}
-
 /*menú de navegacion*/
 .menu-navegacion {
   flex-direction: column;
@@ -594,7 +596,7 @@ header .headerboca {
 }
 
 /* media para seccion2 index */
-.seccion2cuerpo .seccion2cuerpo h3 {
+.seccion2cuerpo h3 {
   font-size: 25px;
   border-top: wheat 2px solid;
   border-bottom: wheat 2px solid;
@@ -617,7 +619,7 @@ header .headerboca {
 }
 
 /* media para seccion3 index */
-.seccion3cuerpo .seccion3cuerpo h3 {
+.seccion3cuerpo h3 {
   font-size: 25px;
   border-top: wheat 2px solid;
   border-bottom: wheat 2px solid;
@@ -645,15 +647,13 @@ header .headerboca {
 .pagina-historia .titulohistoriah1 {
   font-size: 2rem;
 }
-.pagina-historia .pagina-historia h3 {
+.pagina-historia h3 {
   font-size: 2rem;
 }
 .pagina-historia #accordionFlushExample {
   padding: 1% 3%;
 }
-.pagina-historia #accordionFlushExample .accordion-button:not(.collapsed) {
-  font-size: 0.8rem;
-}
+.pagina-historia #accordionFlushExample .accordion-button:not(.collapsed),
 .pagina-historia #accordionFlushExample .accordion-button.collapsed {
   font-size: 0.8rem;
 }
@@ -668,63 +668,60 @@ header .headerboca {
 }
 
 /* mediaQ en pagina Estadio */
-.seccion-estadio .seccion-estadio h1 {
+.seccion-estadio h1 {
   font-size: 1.5rem;
   border-bottom: #f9d342 1px solid;
 }
-.seccion-estadio .seccion-estadio h2 {
+.seccion-estadio h2 {
   font-size: 1.5rem;
   border-bottom: #577BC1 2px solid;
 }
-.seccion-estadio .seccion-estadio p {
+.seccion-estadio p {
   font-size: 14px;
   padding: 0%;
   margin: 1%;
 }
-.seccion-estadio .seccion-estadio p #palineacion {
+.seccion-estadio p #palineacion {
   text-align: left;
 }
 
-.curiosidades-estadio .curiosidades-estadio li {
-  font-size: 14px;
-}
-.curiosidades-estadio .curiosidades-estadio li .curiosidades-estadio ul {
+.curiosidades-estadio ul {
   margin: 3%;
-  padding: 0%;
+  padding: 0;
+}
+.curiosidades-estadio ul li {
+  font-size: 14px;
 }
 
 /* mediaQ en Hinchada boca */
-.paginahinchada .paginahinchada h1 {
+.paginahinchada h1 {
   font-size: 1.5rem;
   padding: 15px 15px;
   margin: 0% 3%;
 }
-.paginahinchada .paginahinchada h2 {
+.paginahinchada h2 {
   font-size: 1rem;
   padding: 7.5px 55px;
   margin: 0% 3%;
 }
-.paginahinchada .sectionla12 {
-  margin-left: 5%;
-  margin-right: 5%;
+.paginahinchada .sectionla12,
+.paginahinchada .sectionbocaenelmundo {
+  margin: 0 5%;
 }
-.paginahinchada .sectionla12 .sectionla12 h3 {
+.paginahinchada .sectionla12 h3,
+.paginahinchada .sectionbocaenelmundo h3 {
   font-size: 20px;
 }
-.paginahinchada .sectionla12 .textoshinchada p {
+.paginahinchada .sectionla12 .textoshinchada p,
+.paginahinchada .sectionbocaenelmundo .textoshinchada p {
   font-size: 14px;
 }
-.paginahinchada .sectionbocaenelmundo {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.paginahinchada .sectionbocaenelmundo .sectionbocaenelmundo h3 {
-  font-size: 20px;
+.paginahinchada .sectionbocaenelmundo h3 {
   border-top: #f9d442 2px solid;
 }
 
 /* mediaQ pagina titulos */
-.titulo-estrellas .titulo-estrellas h1 {
+.titulo-estrellas h1 {
   font-size: 1.5rem;
   margin: 0% 3%;
   padding: 20px 10px;
@@ -741,7 +738,16 @@ header .headerboca {
   grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6";
   gap: 10px;
 }
-.titulo-estrellas .contenedor-principal1 .seccion-categoria1, .titulo-estrellas .contenedor-principal1 .seccion-categoria2, .titulo-estrellas .contenedor-principal1 .seccion-categoria3, .titulo-estrellas .contenedor-principal1 .seccion-categoria4, .titulo-estrellas .contenedor-principal1 .seccion-categoria5, .titulo-estrellas .contenedor-principal1 .seccion-categoria6, .titulo-estrellas .contenedor-principal1 .seccion-categoria7, .titulo-estrellas .contenedor-principal1 .seccion-categoria8, .titulo-estrellas .contenedor-principal1 .seccion-categoria9, .titulo-estrellas .contenedor-principal1 .seccion-categoria10 {
+.titulo-estrellas .contenedor-principal1 .seccion-categoria1,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria2,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria3,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria4,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria5,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria6,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria7,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria8,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria9,
+.titulo-estrellas .contenedor-principal1 .seccion-categoria10 {
   border: #f8f9fa 3px solid;
 }
 .titulo-estrellas .contenedor-principal1 .categoria-titulo {
@@ -772,7 +778,7 @@ header .headerboca {
 }
 
 /* mediaQ en footer */
-.footer footer h3 {
+.footer h3 {
   font-size: 25px;
   border-top: #577BC1 2px solid;
   border-bottom: #577BC1 2px solid;
@@ -790,7 +796,7 @@ header .headerboca {
   width: 22px;
   height: 22px;
 }
-.footer .footer-redes .footer-redes h3 {
+.footer .footer-redes h3 {
   font-size: 20px;
   border-top: #577BC1 2px solid;
   border-bottom: #577BC1 2px solid;
