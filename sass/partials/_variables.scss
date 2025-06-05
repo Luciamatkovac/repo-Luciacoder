@@ -11,12 +11,12 @@ $alir: #577BC1;
 $amarillo: #FFEB00;
 $blanco: #fff;
 
-@mixin grid ($columns,$rows,$area,$gap,$padding){
+@mixin grid ($columns,$rows,$area){
     display: grid;
     grid-template-columns: $columns;
     grid-template-rows: $rows;
     grid-template-areas: $area;
-    gap: $gap;
-    padding: $padding;
+    gap: 20px;
+    padding: 20px;
 
 }

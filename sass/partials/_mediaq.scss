@@ -274,31 +274,20 @@ h2{
 }
 
 .contenedor-principal1 {
-grid-template-columns: repeat(1,1fr);
-grid-template-rows: repeat(6,auto);
-grid-template-areas: "area1"
-"area2"
-"area3"
-"area4"
-"area5"
-"area6";
-gap: 10px;
-}
-.contenedor-principal2 {
-  grid-template-columns: repeat(1,1fr);
-  grid-template-rows: repeat(2,auto);
-  gap: 10px;
-  padding: 20px;
-  margin-top: 0;
-  padding-top: 0;
+  @include grid(repeat(1,1fr),repeat(6,auto),"area1""area2""area3""area4""area5""area6");
+  padding-top: 0px;
+    }
 
-}
+.contenedor-principal2 {
+  @include grid(repeat(1,1fr),repeat(2,auto),null); 
+  padding-top: 0px;
+  
+  }
 
 .contenedor-principal3 {
-  grid-template-columns: repeat(1,1fr);
-  grid-template-rows: repeat(1,auto);
-  gap: 20px;
-  padding: 20px;
+  @include grid(repeat(1,1fr),repeat(1,auto),null);
+  padding-top: 0px;
+  
 }
 
  .seccion-categoria1,
@@ -320,7 +309,7 @@ gap: 10px;
 
 
 
-}
+
 
 /* mediaQ en footer */
 
@@ -366,4 +355,4 @@ h3 {
 }
 }
 
-
+}

@@ -737,24 +737,29 @@ footer .footer-copy {
     font-weight: 350;
   }
   .pagina-titulos .contenedor-principal1 {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6";
-    gap: 10px;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 0px;
   }
   .pagina-titulos .contenedor-principal2 {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
-    margin-top: 0;
-    padding-top: 0;
+    padding-top: 0px;
   }
   .pagina-titulos .contenedor-principal3 {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, auto);
     gap: 20px;
     padding: 20px;
+    padding-top: 0px;
   }
   .pagina-titulos .seccion-categoria1,
   .pagina-titulos .seccion-categoria2,
@@ -768,34 +773,34 @@ footer .footer-copy {
   .pagina-titulos .seccion-categoria10 {
     border: #f8f9fa 3px solid;
   }
-}
-/* mediaQ en footer */
-footer h3 {
-  font-size: 25px;
-  border-top: #577BC1 2px solid;
-  border-bottom: #577BC1 2px solid;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-footer .footer-grid-contacto {
-  grid-template-columns: repeat(1, 1fr);
-}
-footer .footer-grid-contacto .info-item p {
-  font-size: 12px;
-  margin: 0;
-}
-footer .footer-grid-contacto .info-item img {
-  width: 22px;
-  height: 22px;
-}
-footer .footer-redes h3 {
-  font-size: 20px;
-  border-top: #577BC1 2px solid;
-  border-bottom: #577BC1 2px solid;
-  margin-top: 15px;
-}
-footer .footer-redes .redes-icons img {
-  width: 30px;
+  /* mediaQ en footer */
+  footer h3 {
+    font-size: 25px;
+    border-top: #577BC1 2px solid;
+    border-bottom: #577BC1 2px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  footer .footer-grid-contacto {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer .footer-grid-contacto .info-item p {
+    font-size: 12px;
+    margin: 0;
+  }
+  footer .footer-grid-contacto .info-item img {
+    width: 22px;
+    height: 22px;
+  }
+  footer .footer-redes h3 {
+    font-size: 20px;
+    border-top: #577BC1 2px solid;
+    border-bottom: #577BC1 2px solid;
+    margin-top: 15px;
+  }
+  footer .footer-redes .redes-icons img {
+    width: 30px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

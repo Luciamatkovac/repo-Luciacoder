@@ -1,4 +1,5 @@
-@use "./variables";
+@use "./variables" as*;
+
 
 /* css pagina titulos*/
 
@@ -70,28 +71,15 @@ li {
   }
 
 .contenedor-principal1 {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2,auto);
-  grid-template-areas: 
-    "area1 area2 area3"
-    "area4 area5 area6";
-  gap: 20px;
-  padding: 20px;
+  @include grid(repeat(3, 1fr),repeat(2, auto),"area1 area2 area3""area4 area5 area6");
 }
+ 
 .contenedor-principal2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, auto);
-    gap: 20px;
-    padding: 20px;
+    @include grid(repeat(2, 1fr),repeat(1, auto),null);
 }
+
 .contenedor-principal3 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, auto);
-    gap: 20px;
-    padding: 20px;
+     @include grid(repeat(2, 1fr),repeat(1, auto),null);
 }
 
 .seccion-categoria-base {
