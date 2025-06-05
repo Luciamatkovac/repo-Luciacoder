@@ -7,17 +7,17 @@
         background-position:center ;
         background-size: cover;
         margin: 0;
-        border: #000957 12px solid;
+        border: $azulOscuro 12px solid;
         
         h1{
-    color: #000957;
+    color: $azulOscuro;
     font-size: 70px;
     text-align: center;
     margin: 2%;
     }
 
       h2 {
-    color: #000957;
+    color: $azulOscuro;
     text-align: center;
     font-size: 50px;
     font-weight: 800;
@@ -28,10 +28,10 @@
 
 .texto-bienvenidaweb {
   p {
-    color: white;
+    color: $blanco;
     font-size: 20px;
     text-align: justify;
-    font-family: "Poppins", sans-serif;
+    font-family: $font;
     font-weight: 300;
     margin: 2% 10%;
   }
