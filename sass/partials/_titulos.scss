@@ -1,9 +1,9 @@
-@use "./variables" as*;
+@use "./variables";
 
 /* css pagina titulos*/
 
 .pagina-titulos {
-.titulo-estrellas {
+h1{
     text-align: center;
     font-size: 68px;
     font-weight: bold;
@@ -16,7 +16,7 @@
     color: #fff;
   }
 
-     .h2titulos {
+ h2{
     text-align: center;
     font-size: 45px;
     font-weight: bold;

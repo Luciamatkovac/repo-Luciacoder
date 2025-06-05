@@ -9,12 +9,15 @@
     text-align: center;
     font-size: 45px;
     color: #f9d342;
+    
   }
  .meses-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
 
     .columna-mes {
       background-color: #577bc1;

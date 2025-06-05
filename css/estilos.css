@@ -132,6 +132,8 @@ header p {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .seccion2cuerpo .meses-grid .columna-mes {
   background-color: #577bc1;
@@ -273,7 +275,7 @@ header p {
 }
 
 /* css pagina titulos*/
-.pagina-titulos .titulo-estrellas {
+.pagina-titulos h1 {
   text-align: center;
   font-size: 68px;
   font-weight: bold;
@@ -285,7 +287,7 @@ header p {
   border-radius: 8px;
   color: #fff;
 }
-.pagina-titulos .h2titulos {
+.pagina-titulos h2 {
   text-align: center;
   font-size: 45px;
   font-weight: bold;
@@ -467,19 +469,18 @@ header p {
   text-align: justify;
   color: #000957;
 }
-
-.Informacion-especifica, .historia-estadio, .curiosidades-estadio {
+.seccion-estadio .Informacion-especifica, .seccion-estadio .historia-estadio, .seccion-estadio .curiosidades-estadio {
   background-color: #eaf3ff;
   padding: 5%;
   margin: 5%;
   border-radius: 8px;
   border: #000957 15px double;
 }
-
-.curiosidades-estadio li {
+.seccion-estadio .curiosidades-estadio li {
   font-size: 20px;
   text-align: justify;
   list-style-type: circle;
+  color: #000957;
 }
 
 /* footer */
@@ -488,6 +489,8 @@ footer {
   padding: 40px 20px;
   color: white;
   font-family: "Poppins", sans-serif;
+  /* contacto */
+  /* redes sociales */
 }
 footer h3 {
   border-top: #577BC1 5px solid;
@@ -497,13 +500,11 @@ footer h3 {
   font-size: 35px;
   margin-top: 45px;
 }
-
-/* contacto */
-.footer-grid-contacto {
+footer .footer-grid-contacto {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.footer-grid-contacto .info-item {
+footer .footer-grid-contacto .info-item {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -511,24 +512,21 @@ footer h3 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.footer-grid-contacto .info-item p {
+footer .footer-grid-contacto .info-item p {
   font-size: 20px;
   color: #f8f9fa;
 }
-.footer-grid-contacto .info-item img {
+footer .footer-grid-contacto .info-item img {
   width: 36px;
   height: 36px;
 }
-
-.footer-mapa {
+footer .footer-mapa {
   width: 100%;
   height: 200px;
   margin: auto;
   border-radius: 10px;
 }
-
-/* redes sociales */
-.footer-redes h3 {
+footer .footer-redes h3 {
   border-top: #577BC1 5px solid;
   border-bottom: #577BC1 5px solid;
   width: 100%;
@@ -536,17 +534,16 @@ footer h3 {
   font-size: 35px;
   margin-top: 45px;
 }
-.footer-redes .redes-icons {
+footer .footer-redes .redes-icons {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-top: 10px;
 }
-.footer-redes .redes-icons img {
+footer .footer-redes .redes-icons img {
   width: 40px;
 }
-
-.footer-copy {
+footer .footer-copy {
   text-align: center;
   margin-top: 30px;
   font-size: 14px;
@@ -595,11 +592,11 @@ footer h3 {
     font-size: 25px;
     border-top: wheat 2px solid;
     border-bottom: wheat 2px solid;
+    margin-bottom: 2%;
   }
   .seccion2cuerpo .meses-grid {
     grid-template-columns: repeat(1, 1fr);
-    margin: 0%;
-    width: 100%;
+    margin: 1%;
   }
   .seccion2cuerpo .meses-grid .columna-mes {
     padding: 5px;
@@ -676,23 +673,26 @@ footer h3 {
   .seccion-estadio p #palineacion {
     text-align: left;
   }
-  .curiosidades-estadio ul {
+  .seccion-estadio .curiosidades-estadio ul {
     margin: 3%;
     padding: 0;
   }
-  .curiosidades-estadio ul li {
+  .seccion-estadio .curiosidades-estadio ul li {
     font-size: 14px;
   }
   /* mediaQ en Hinchada boca */
   .paginahinchada h1 {
     font-size: 1.5rem;
     padding: 15px 15px;
-    margin: 0% 3%;
+    margin: 1% 3%;
   }
   .paginahinchada h2 {
     font-size: 1rem;
     padding: 7.5px 55px;
-    margin: 0% 3%;
+    margin: 1% 3%;
+  }
+  .paginahinchada p {
+    font-size: 14px;
   }
   .paginahinchada .sectionla12,
   .paginahinchada .sectionbocaenelmundo {
@@ -702,56 +702,47 @@ footer h3 {
   .paginahinchada .sectionbocaenelmundo h3 {
     font-size: 20px;
   }
-  .paginahinchada .sectionla12 .textoshinchada p,
-  .paginahinchada .sectionbocaenelmundo .textoshinchada p {
-    font-size: 14px;
-  }
   .paginahinchada .sectionbocaenelmundo h3 {
     border-top: #f9d442 2px solid;
+    padding-top: 2%;
   }
   /* mediaQ pagina titulos */
-  .titulo-estrellas h1 {
+  .pagina-titulos h1 {
     font-size: 1.5rem;
     margin: 0% 3%;
     padding: 20px 10px;
   }
-  .titulo-estrellas .h2titulos {
+  .pagina-titulos h2 {
     font-size: 20px;
-    margin: 3% 3%;
+    margin: 2% 3%;
     padding: 1%;
     border: #f9d342 2px solid;
   }
-  .titulo-estrellas .contenedor-principal1 {
+  .pagina-titulos .contenedor-principal1 .categoria-titulo,
+  .pagina-titulos .contenedor-principal2 .categoria-titulo,
+  .pagina-titulos .contenedor-principal3 .categoria-titulo {
+    font-size: 14px;
+    border-bottom: #f9d342 2px solid;
+  }
+  .pagina-titulos .contenedor-principal1 .totales-titulo,
+  .pagina-titulos .contenedor-principal2 .totales-titulo,
+  .pagina-titulos .contenedor-principal3 .totales-titulo {
+    font-size: 18px;
+    border-bottom: #f9d342 2px solid;
+  }
+  .pagina-titulos .contenedor-principal1 .lista-titulos,
+  .pagina-titulos .contenedor-principal2 .lista-titulos,
+  .pagina-titulos .contenedor-principal3 .lista-titulos {
+    font-size: 14px;
+    font-weight: 350;
+  }
+  .pagina-titulos .contenedor-principal1 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6";
     gap: 10px;
   }
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria1,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria2,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria3,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria4,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria5,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria6,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria7,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria8,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria9,
-  .titulo-estrellas .contenedor-principal1 .seccion-categoria10 {
-    border: #f8f9fa 3px solid;
-  }
-  .titulo-estrellas .contenedor-principal1 .categoria-titulo {
-    font-size: 14px;
-    border-bottom: #f9d342 2px solid;
-  }
-  .titulo-estrellas .contenedor-principal1 .totales-titulo {
-    font-size: 18px;
-    border-bottom: #f9d342 2px solid;
-  }
-  .titulo-estrellas .contenedor-principal1 .lista-titulos {
-    font-size: 14px;
-    font-weight: 350;
-  }
-  .titulo-estrellas .contenedor-principal2 {
+  .pagina-titulos .contenedor-principal2 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 10px;
@@ -759,40 +750,52 @@ footer h3 {
     margin-top: 0;
     padding-top: 0;
   }
-  .titulo-estrellas .contenedor-principal3 {
+  .pagina-titulos .contenedor-principal3 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, auto);
     gap: 20px;
     padding: 20px;
   }
-  /* mediaQ en footer */
-  .footer h3 {
-    font-size: 25px;
-    border-top: #577BC1 2px solid;
-    border-bottom: #577BC1 2px solid;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  .pagina-titulos .seccion-categoria1,
+  .pagina-titulos .seccion-categoria2,
+  .pagina-titulos .seccion-categoria3,
+  .pagina-titulos .seccion-categoria4,
+  .pagina-titulos .seccion-categoria5,
+  .pagina-titulos .seccion-categoria6,
+  .pagina-titulos .seccion-categoria7,
+  .pagina-titulos .seccion-categoria8,
+  .pagina-titulos .seccion-categoria9,
+  .pagina-titulos .seccion-categoria10 {
+    border: #f8f9fa 3px solid;
   }
-  .footer .footer-grid-contacto {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .footer .footer-grid-contacto .info-item p {
-    font-size: 12px;
-    margin: 0;
-  }
-  .footer .footer-grid-contacto .info-item img {
-    width: 22px;
-    height: 22px;
-  }
-  .footer .footer-redes h3 {
-    font-size: 20px;
-    border-top: #577BC1 2px solid;
-    border-bottom: #577BC1 2px solid;
-    margin-top: 15px;
-  }
-  .footer .footer-redes .redes-icons img {
-    width: 30px;
-  }
+}
+/* mediaQ en footer */
+footer h3 {
+  font-size: 25px;
+  border-top: #577BC1 2px solid;
+  border-bottom: #577BC1 2px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+footer .footer-grid-contacto {
+  grid-template-columns: repeat(1, 1fr);
+}
+footer .footer-grid-contacto .info-item p {
+  font-size: 12px;
+  margin: 0;
+}
+footer .footer-grid-contacto .info-item img {
+  width: 22px;
+  height: 22px;
+}
+footer .footer-redes h3 {
+  font-size: 20px;
+  border-top: #577BC1 2px solid;
+  border-bottom: #577BC1 2px solid;
+  margin-top: 15px;
+}
+footer .footer-redes .redes-icons img {
+  width: 30px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
