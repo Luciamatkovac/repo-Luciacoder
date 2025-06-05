@@ -690,6 +690,9 @@ footer .footer-copy {
   .pagina-historia #accordionFlushExample .accordion-body p {
     font-size: 0.8rem;
   }
+  .pagina-historia #accordionFlushExample .accordion-body ul li {
+    font-size: 0.8rem;
+  }
   /* mediaQ en pagina Estadio */
   .seccion-estadio h1 {
     font-size: 1.5rem;
