@@ -3,23 +3,27 @@
   /*media para header  */
 @media (max-width:500px){
   header {
-    flex-direction: column;
-    text-align: center;
-    margin:0;
+    
 
+    .textos-header{
+    display: flex;
+    align-items: center;
+  
     img {
     width: 80px;
     height: auto;
     }
-    }
-
+  }
+    
     p{
   font-size: 28px;
   text-align: center;
   padding: 1%;
 
     }
-      }
+  }
+
+      
 
       
       
@@ -30,28 +34,32 @@
   margin: 0% 1%;
   padding: 1%;
 
- a {
+ li{
+  a{
   font-size: 12px;
   padding: 0;
   }
   
 }
+ }
 
 /* media para seccion1 index */
-.titulo-presentacion{
+.seccion1cuerpo {
+h1{
   font-size: 50px;
-
-  .seccion1cuerpo h2{
+}
+h2{
   font-size: 30px;
   font-weight: 600;
 }
 }
 
-.texto-bienvenidaweb p{
+.texto-bienvenidaweb {
+p{
   font-size: 12px;
 
 }
-
+}
 /* media para seccion2 index */
 
 .seccion2cuerpo{
@@ -329,5 +337,6 @@ h3 {
 .redes-icons img {
   width: 30px;
   }
+}
 }
 }
