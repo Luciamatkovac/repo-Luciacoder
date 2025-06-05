@@ -4,14 +4,14 @@
 
 
 header {
-    background-color: #000957;
+    background-color: $azulOscuro;
    
     .textos-header{
     display: flex;
     align-items: center;
     
     img {
-    background-color: #000957;
+    background-color: $azulOscuro;
     width: 150px;
     height: auto;
     margin: 2% 2%;
@@ -19,10 +19,10 @@ header {
       }
     p{
   
-    background-color: #000957;
-    font-family: "Poppins", sans-serif;
+    background-color: $azulOscuro;
+    font-family: $font;
     font-size: 48px;
-    color: white;
+    color: $blanco;
     font-weight: bold;
     padding: 1%;
     line-height: 1.2;
@@ -38,7 +38,7 @@ align-items: center;
 list-style: none;
 padding: 1%;
 margin: 1%;
-background-color: #000957;
+background-color: $azulOscuro;
 
 li {
   flex: 10px ;
@@ -47,17 +47,17 @@ li {
   a {
   display: block;
   padding: 8px;
-  color: white;
+  color: $blanco;
   text-decoration: none;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+  font-family: $font;
   font-size: 30px;
-  border: white 2px solid;
+  border: $blanco 2px solid;
   margin: 3px;
 
   &:hover {
-          background-color: white;
-          color: #000957;
+          background-color: $blanco;
+          color: $azulOscuro;
         }
 }
 }

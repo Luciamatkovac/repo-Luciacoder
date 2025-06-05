@@ -8,21 +8,21 @@ h1{
     text-align: center;
     font-size: 68px;
     font-weight: bold;
-    border: #003366 10px solid;
+    border: $azulacordion 10px solid;
     padding: 40px 20px;
     margin: 1%;
     text-transform: uppercase;
-    background-color: #003366;
+    background-color: $azulacordion;
     border-radius: 8px;
-    color: #fff;
+    color: $blanco;
   }
 
  h2{
     text-align: center;
     font-size: 45px;
     font-weight: bold;
-    border: #f9d342 5px solid;
-    color: #f9d342;
+    border: $amarillo 5px solid;
+    color: $amarillo;
     padding: 1%;
     margin: 1%;
     border-radius: 8px;
@@ -38,9 +38,9 @@ font-weight: 550;
   text-transform: uppercase;
   margin-top: 2%;
   padding-bottom: 2%;
-  color: #f8f9fa;
+  color: $blanco;
   text-align: center;
-  border-bottom: #f9d342 5px solid;
+  border-bottom: $amarillo 5px solid;
   }
 
 .totales-titulo{
@@ -48,16 +48,16 @@ font-size: 25px;
 font-weight: 550;
   margin-top: 2%;
   padding-bottom: 1.5%;
-  color: #f8f9fa;
+  color: $blanco;
   text-align: center;
-  border-bottom: #f9d342 5px solid;
+  border-bottom: $amarillo 5px solid;
 }
 
 .lista-titulos {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: $font;
   font-size: 25px;
   font-weight: 500;
   text-align: center;
@@ -65,7 +65,7 @@ font-weight: 550;
 
 li {
   margin-bottom: 6px;
-  color: #f8f9fa;
+  color: $blanco;
 }
 }
   }
@@ -83,11 +83,11 @@ li {
 }
 
 .seccion-categoria-base {
-  background-color: #003366;
+  background-color: $azulacordion;
   opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  border: #f8f9fa 5px solid;
+  border: $blanco 5px solid;
 }
 
 /*categorias de 1 a 6*/

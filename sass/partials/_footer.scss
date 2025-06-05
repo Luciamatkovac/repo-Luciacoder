@@ -3,14 +3,14 @@
 /* footer */
 
 footer {
-  background-color: #000957;
+  background-color: $azulOscuro;
   padding: 40px 20px;
-  color: white;
-  font-family: "Poppins", sans-serif;
+  color: $blanco;
+  font-family: $font;
 
  h3{
-    border-top: #577BC1 5px solid ;
-    border-bottom: #577BC1 5px solid ;
+    border-top: $azulclaro 5px solid ;
+    border-bottom: $azulclaro 5px solid ;
     width: 100%;
     text-align: center;
     font-size: 35px;
@@ -34,7 +34,7 @@ grid-template-columns: repeat(2, 1fr);
 
   p{
     font-size: 20px;
-    color: #f8f9fa;
+    color: $blanco;
 }
 img {
   width: 36px;
@@ -55,8 +55,8 @@ img {
 /* redes sociales */
 .footer-redes{
 h3 {
-    border-top: #577BC1 5px solid ;
-    border-bottom: #577BC1 5px solid ;
+    border-top: $azulclaro 5px solid ;
+    border-bottom: $azulclaro 5px solid ;
     width: 100%;
     text-align: center;
     font-size: 35px;
@@ -80,7 +80,7 @@ h3 {
   text-align: center;
   margin-top: 30px;
   font-size: 14px;
-  color: white;
+  color: $blanco;
 }
 
 }

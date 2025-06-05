@@ -6,9 +6,10 @@ font-family: "Poppins", sans-serif; */
 $font: "Poppins", sans-serif;
 
 $azulOscuro: #000957;
-$ali: #344CB7;
-$alir: #577BC1;
-$amarillo: #FFEB00;
+$azulmedio: #344CB7;
+$azulclaro: #577BC1;
+$azulacordion: #003366;
+$amarillo: #f9d342;
 $blanco: #fff;
 
 @mixin grid ($columns,$rows,$area){

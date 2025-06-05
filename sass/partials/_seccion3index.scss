@@ -9,7 +9,7 @@
     width: 100%;
     text-align: center;
     font-size: 45px;
-    color: #f9d342;
+    color: $amarillo;
     margin-top: 5%;
   }
 
@@ -22,25 +22,25 @@
     .video-canal {
       display: grid;
       justify-items: center;
-      background: #ffffff;
+      background: $blanco;
       padding: 5%;
       border-radius: 12px;
-      box-shadow: 0 5px 25px 5px #577bc1;
+      box-shadow: 0 5px 25px 5px $azulclaro;
 
       iframe {
         width: 100%;
         height: 300px;
         border-radius: 8px;
-        border: #f9d342 7px solid;
+        border: $amarillo 7px solid;
         padding: 5px;
       }
 
       h3 {
         font-size: 25px;
         margin-top: 12px;
-        color: #003366;
+        color: $azulacordion;
         text-transform: uppercase;
-        border-bottom: #003366 4px solid;
+        border-bottom: $azulacordion 4px solid;
         text-align: center;
         border-top: none;
       }
@@ -48,7 +48,7 @@
       p {
         font-size: 20px;
         margin: 0;
-        color: #003366;
+        color: $azulacordion;
         text-align: justify;
       }
     }

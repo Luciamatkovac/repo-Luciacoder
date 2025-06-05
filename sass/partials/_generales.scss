@@ -6,19 +6,19 @@
 }
 
 body {
-    background-color: #000957;
-    font-family: "Poppins", sans-serif;
+    background-color: $azulOscuro;
+    font-family: $font;
         }
 
 
 h2 {
-    color: white;
-    Font-family: "Poppins", sans-serif;
+    color: $blanco;
+    Font-family: $font;
     font-size: 30px;
     font-weight: bold;
     }
 p {
-    color: white;
+    color: $blanco;
     font-size: 20px;
     font-weight: 200px;
     text-align: justify;
@@ -26,5 +26,5 @@ p {
 }
 
 .historiabgcolor{
-  background-color: #000957;
+  background-color: $azulOscuro;
 }

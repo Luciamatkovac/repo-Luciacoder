@@ -4,8 +4,8 @@
 
 .seccion-estadio{
 h1{
-  color: #f9d342;
-  border-bottom: #f9d342 2px solid;
+  color: $amarillo;
+  border-bottom: $amarillo 2px solid;
   padding-bottom: 2%;
   padding-top: 2%;
 margin: 15px;
@@ -15,15 +15,15 @@ text-align: center;
 
 h2{
   text-align: center;
-  color: #577BC1;
-  border-bottom: #577BC1 5px solid;
+  color: $azulclaro;
+  border-bottom: $azulclaro 5px solid;
   font-size: 45px;
 }
 
 p{
   font-size: 20px;
   text-align: justify;
-  color: #000957;
+  color: $azulOscuro;
 
 
 }
@@ -34,7 +34,7 @@ p{
   padding: 5%;
   margin: 5%;
   border-radius: 8px;
-  border: #000957 15px double;
+  border: $azulOscuro 15px double;
   }
 
 
@@ -44,7 +44,7 @@ p{
  font-size: 20px;
   text-align: justify;
 list-style-type: circle;
-color: #000957;
+color: $azulOscuro;
 
   }
   
