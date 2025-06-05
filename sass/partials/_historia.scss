@@ -1,5 +1,6 @@
 @use "./variables" as*;
 
+
 /* BODY HISTORIA */
 /* div historia.html */
 
@@ -17,25 +18,33 @@
 
   #accordionFlushExample {
     padding: 2% 5%;
+        
+    .accordion-item{
+      border-radius: 5px;
+      background-color: $azulOscuro;
+      border: none;
+      padding: 3px;
+    }
 
     .accordion-button {
       font-size: 1.5rem;
       text-transform: uppercase;
-
-      &:not(.collapsed) {
-        --bs-accordion-active-bg: $azulclaro;
-        --bs-accordion-active-color: $blanco;
-      }
+      border-radius: 5px;
+             
+     
 
       &.collapsed {
-        font-weight: 600;
+        font-weight: 600;            
         border: 4px solid $azulclaro;
-        background-color: #f9d442b6;
+        background-color: #cfe2ff;
         color: $azulOscuro;
+        
       }
     }
 
     .accordion-body {
+    background-color: $blanco;
+    
       h3 {
         color: $azulacordion;
         font-size: 36px;
@@ -74,9 +83,18 @@
       width: 280px;
       height: auto;
       border-radius: 6px;
+      
+      @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
+
+        &:hover {
+      animation: scale-up-center 0.5s linear;
+      
+
+
+      
     }
   }
 }
-
+}
 
 

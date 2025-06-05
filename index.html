@@ -14,7 +14,11 @@
       #344CB7 / rgb(52, 76, 183)
       #577BC1 / rgb(87, 123, 193)
       #FFEB00 / rgb(255, 235, 0) -->
-
+     <!-- animate css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <!-- CSS -->
      <link rel="stylesheet" href="./css/estilos.css">
  </head>
@@ -26,9 +30,9 @@
    <!-- contenedor de textos -->
   <div class="textos-header">
   <!-- logo boca juniors -->
-  <img src="./medios/Escudo_del_Club_Atlético_Boca_Juniors.svg.png" alt="escudo club atletico boca juniors" class="logo-boca">
+  <img src="./medios/Escudo_del_Club_Atlético_Boca_Juniors.svg.png" class="animate__animated animate__bounceInDown animate__delay-0.5s" alt= escudo club atletico boca juniors class="logo-boca">
   <!-- titulo y subtitulos iniciales -->
-    <p>CLUB ATLETICO BOCA JUNIORS</P>
+    <p class="animate__animated animate__lightSpeedInRight animate__delay-0.5s">CLUB ATLETICO BOCA JUNIORS</P>
 
    
      </div>
@@ -197,7 +201,7 @@
 <section class="seccion3cuerpo">
   <h3>EL CANAL DE BOCA</h3>
 
-  <div class="grid-canal">
+  <div class="grid-canal" data-aos="zoom-in" data-aos-duration="2500" >
     <!-- Video 1 -->
     <div class="video-canal">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/2Cz2ZWfEhiM?si=CHMw9K9jb6_bWd5l" title="Boca en Boca" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -275,7 +279,10 @@
 
        </footer>
       
-
+<!-- SCRIPT 2 AOS -->
+<script>
+  AOS.init();
+</script>
 
  </body>
 </html>

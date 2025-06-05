@@ -15,6 +15,7 @@ header {
     width: 150px;
     height: auto;
     margin: 2% 2%;
+    
     }
       }
     p{
@@ -54,10 +55,14 @@ li {
   font-size: 30px;
   border: $blanco 2px solid;
   margin: 3px;
+  border-radius: 6px ;
+  transition: all 0.3s ease-in;
 
   &:hover {
-          background-color: $blanco;
-          color: $azulOscuro;
+           color: $amarillo;
+    background-color: $azulacordion;
+    padding: 10px 15px;
+    
         }
 }
 }
