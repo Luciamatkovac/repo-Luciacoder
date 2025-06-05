@@ -114,7 +114,7 @@ header p {
 
 .texto-bienvenidaweb p {
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   text-align: justify;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -264,6 +264,12 @@ header p {
   border-bottom: 3px solid #f9d342;
   margin-bottom: 15px;
 }
+.pagina-historia #accordionFlushExample .accordion-body li {
+  color: #003366;
+  font-size: 18px;
+  margin: 2% 5%;
+  list-style: none;
+}
 .pagina-historia #accordionFlushExample .accordion-body p {
   color: #003366;
   font-size: 18px;
@@ -359,24 +365,11 @@ header p {
   font-weight: 500;
   text-align: center;
 }
-@keyframes fadeInList {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.pagina-titulos .contenedor-principal1 li,
-.pagina-titulos .contenedor-principal2 li,
-.pagina-titulos .contenedor-principal3 li {
+.pagina-titulos .contenedor-principal1 .lista-titulos li,
+.pagina-titulos .contenedor-principal2 .lista-titulos li,
+.pagina-titulos .contenedor-principal3 .lista-titulos li {
   margin-bottom: 6px;
   color: #fff;
-  opacity: 0;
-  animation: 0.6s ease forwards;
-  animation-delay: calc(0.1s * var(--i));
 }
 
 .contenedor-principal1 {
