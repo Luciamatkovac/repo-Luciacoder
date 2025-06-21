@@ -41,7 +41,7 @@
         color: $azulacordion;
         text-transform: uppercase;
         border-bottom: $azulacordion 4px solid;
-        text-align: center;
+        text-align: justify;
         border-top: none;
       }
 
@@ -50,6 +50,7 @@
         margin: 0;
         color: $azulacordion;
         text-align: justify;
+        margin-top: 10px;
       }
     }
   }

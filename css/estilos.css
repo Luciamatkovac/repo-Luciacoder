@@ -141,7 +141,7 @@ header p {
 .seccion2cuerpo .meses-grid .columna-mes {
   background-color: #577BC1;
   border-radius: 10px;
-  padding: 16px;
+  padding: 8px;
 }
 .seccion2cuerpo .meses-grid .columna-mes:hover {
   transform: translateY(-10px);
@@ -165,7 +165,7 @@ header p {
 }
 .seccion2cuerpo .meses-grid .columna-mes ul li {
   background: #ffeb00;
-  margin: 8px;
+  margin: 7px;
   padding: 10px;
   border-radius: 6px;
   font-size: 18px;
@@ -211,7 +211,7 @@ header p {
   color: #003366;
   text-transform: uppercase;
   border-bottom: #003366 4px solid;
-  text-align: center;
+  text-align: justify;
   border-top: none;
 }
 .seccion3cuerpo .grid-canal .video-canal p {
@@ -219,6 +219,7 @@ header p {
   margin: 0;
   color: #003366;
   text-align: justify;
+  margin-top: 10px;
 }
 
 /* BODY HISTORIA */
@@ -239,17 +240,20 @@ header p {
 }
 .pagina-historia #accordionFlushExample .accordion-item {
   border-radius: 5px;
-  background-color: #000957;
+  background-color: #f9d342;
   border: none;
   padding: 3px;
+  margin: 1%;
 }
 .pagina-historia #accordionFlushExample .accordion-button {
   font-size: 1.5rem;
   text-transform: uppercase;
   border-radius: 5px;
+  border: 4px solid #577BC1;
+  font-weight: 600;
 }
 .pagina-historia #accordionFlushExample .accordion-button.collapsed {
-  font-weight: 600;
+  font-weight: 300;
   border: 4px solid #577BC1;
   background-color: #cfe2ff;
   color: #000957;
@@ -259,10 +263,11 @@ header p {
 }
 .pagina-historia #accordionFlushExample .accordion-body h3 {
   color: #003366;
-  font-size: 36px;
+  font-size: 45px;
   text-align: center;
   border-bottom: 3px solid #f9d342;
   margin-bottom: 15px;
+  padding: 1% 0;
 }
 .pagina-historia #accordionFlushExample .accordion-body li {
   color: #003366;
@@ -292,7 +297,7 @@ header p {
   margin-bottom: 20px;
 }
 .pagina-historia .historiasflex .imagenhistoria {
-  width: 280px;
+  width: 400px;
   height: auto;
   border-radius: 6px;
 }
@@ -623,14 +628,14 @@ footer .footer-copy {
   }
   /* media para seccion2 index */
   .seccion2cuerpo h3 {
-    font-size: 25px;
+    font-size: 18px;
     border-top: wheat 2px solid;
     border-bottom: wheat 2px solid;
     margin-bottom: 2%;
   }
   .seccion2cuerpo .meses-grid {
     grid-template-columns: repeat(1, 1fr);
-    margin: 1%;
+    margin: 2%;
   }
   .seccion2cuerpo .meses-grid .columna-mes {
     padding: 5px;
@@ -638,41 +643,45 @@ footer .footer-copy {
   .seccion2cuerpo .meses-grid .columna-mes h4 {
     font-size: 20px;
     margin-top: 5px;
+    margin-bottom: 2px;
   }
-  .seccion2cuerpo .meses-grid .columna-mes li {
+  .seccion2cuerpo .meses-grid .columna-mes ul li {
     font-size: 12px;
     text-align: justify;
   }
   /* media para seccion3 index */
   .seccion3cuerpo h3 {
-    font-size: 25px;
+    font-size: 18px;
     border-top: wheat 2px solid;
     border-bottom: wheat 2px solid;
   }
   .seccion3cuerpo .grid-canal {
     grid-template-columns: repeat(1, 1fr);
+    gap: 18px;
+  }
+  .seccion3cuerpo .grid-canal .video-canal {
+    box-shadow: 0 2px 8px 2px #577BC1;
   }
   .seccion3cuerpo .grid-canal .video-canal iframe {
-    width: 100%;
-    height: 250px;
+    height: 200px;
     padding: 2%;
-    border: #f9d342 4px solid;
+    border: #f9d342 2px solid;
   }
   .seccion3cuerpo .grid-canal .video-canal h3 {
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 6px;
     text-align: justify;
+    border-bottom: #003366 2px solid;
   }
   .seccion3cuerpo .grid-canal .video-canal p {
-    font-size: 14px;
-    margin: 2.5px;
+    font-size: 10px;
+    margin-top: 5px;
   }
   /* mediaQ en pagina Historia */
   .pagina-historia .titulohistoriah1 {
-    font-size: 2rem;
-  }
-  .pagina-historia h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin: 5¿px;
+    padding: 0.5% 0;
   }
   .pagina-historia #accordionFlushExample {
     padding: 1% 3%;
@@ -680,12 +689,14 @@ footer .footer-copy {
   .pagina-historia #accordionFlushExample .accordion-button:not(.collapsed),
   .pagina-historia #accordionFlushExample .accordion-button.collapsed {
     font-size: 0.8rem;
+    padding: 2.5%;
   }
   .pagina-historia #accordionFlushExample .imagenhistoria {
     width: 170px;
   }
   .pagina-historia #accordionFlushExample .accordion-body h3 {
     font-size: 1.5rem;
+    padding: 1% 0;
   }
   .pagina-historia #accordionFlushExample .accordion-body p {
     font-size: 0.8rem;
@@ -811,8 +822,11 @@ footer .footer-copy {
     border: #fff 3px solid;
   }
   /* mediaQ en footer */
+  footer {
+    padding: 10px 10px;
+  }
   footer h3 {
-    font-size: 25px;
+    font-size: 15px;
     border-top: #577BC1 2px solid;
     border-bottom: #577BC1 2px solid;
     margin-top: 5px;
@@ -821,22 +835,173 @@ footer .footer-copy {
   footer .footer-grid-contacto {
     grid-template-columns: repeat(1, 1fr);
   }
+  footer .footer-grid-contacto .info-item {
+    margin: 0%;
+  }
   footer .footer-grid-contacto .info-item p {
-    font-size: 12px;
-    margin: 0;
+    font-size: 10px;
+    margin: 2%;
   }
   footer .footer-grid-contacto .info-item img {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
+  }
+  footer .footer-mapa {
+    height: 100px;
   }
   footer .footer-redes h3 {
-    font-size: 20px;
+    font-size: 15px;
     border-top: #577BC1 2px solid;
     border-bottom: #577BC1 2px solid;
     margin-top: 15px;
   }
   footer .footer-redes .redes-icons img {
+    width: 20px;
+  }
+  footer .footer-copy {
+    font-size: 8px;
+  }
+}
+/*media para header  */
+@media (min-width: 501px) and (max-width: 768px) {
+  header .textos-header {
+    display: flex;
+    align-items: center;
+  }
+  header .textos-header img {
+    width: 100px;
+    height: auto;
+  }
+  header p {
+    font-size: 35px;
+    text-align: center;
+    padding: 1%;
+  }
+  .menu-navegacion a {
+    font-size: 15px;
+    padding: 5px;
+    margin: 3px;
+  }
+  /* section 1 del cuerpo home */
+  .seccion1cuerpo h1 {
+    font-size: 50px;
+  }
+  .seccion1cuerpo h2 {
+    font-size: 35px;
+  }
+  .texto-bienvenidaweb p {
+    font-size: 16px;
+    margin: 2% 5%;
+  }
+  /* media para seccion2 index */
+  .seccion2cuerpo h3 {
+    font-size: 30px;
+    border-top: wheat 3px solid;
+    border-bottom: wheat 3px solid;
+    margin-bottom: 2%;
+  }
+  .seccion2cuerpo .meses-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .seccion2cuerpo .meses-grid .columna-mes {
+    padding: 10px;
+  }
+  .seccion2cuerpo .meses-grid .columna-mes h4 {
+    font-size: 25px;
+    margin-top: 8px;
+  }
+  .seccion2cuerpo .meses-grid .columna-mes ul li {
+    font-size: 14px;
+    text-align: justify;
+  }
+  /* media para seccion3 index */
+  .seccion3cuerpo h3 {
+    font-size: 30px;
+    border-top: wheat 3px solid;
+    border-bottom: wheat 3px solid;
+  }
+  .seccion3cuerpo .grid-canal {
+    gap: 18px;
+  }
+  .seccion3cuerpo .grid-canal .video-canal {
+    box-shadow: 0 2.5px 10px 2.5px #577BC1;
+  }
+  .seccion3cuerpo .grid-canal .video-canal iframe {
+    height: 200px;
+    padding: 2%;
+    border: #f9d342 2px solid;
+  }
+  .seccion3cuerpo .grid-canal .video-canal h3 {
+    font-size: 15px;
+    border-bottom: #003366 3px solid;
+    margin-top: 8px;
+    text-align: justify;
+  }
+  .seccion3cuerpo .grid-canal .video-canal p {
+    font-size: 14px;
+  }
+  /* mediaQ en pagina Historia */
+  .pagina-historia .titulohistoriah1 {
+    font-size: 2.5rem;
+    margin: 10px;
+    padding: 0.5% 0;
+  }
+  .pagina-historia #accordionFlushExample {
+    padding: 1% 3%;
+  }
+  .pagina-historia #accordionFlushExample .accordion-button:not(.collapsed),
+  .pagina-historia #accordionFlushExample .accordion-button.collapsed {
+    font-size: 1rem;
+  }
+  .pagina-historia #accordionFlushExample .imagenhistoria {
+    width: 250px;
+  }
+  .pagina-historia #accordionFlushExample .accordion-body h3 {
+    font-size: 1.8rem;
+    padding: 1% 0;
+  }
+  .pagina-historia #accordionFlushExample .accordion-body p {
+    font-size: 1rem;
+  }
+  .pagina-historia #accordionFlushExample .accordion-body li {
+    font-size: 1rem;
+  }
+  /* mediaQ en footer */
+  footer {
+    padding: 10px 10px;
+  }
+  footer h3 {
+    font-size: 20px;
+    border-top: #577BC1 3px solid;
+    border-bottom: #577BC1 3px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  footer .footer-grid-contacto .info-item {
+    gap: 5px;
+    margin: 0%;
+  }
+  footer .footer-grid-contacto .info-item p {
+    font-size: 12px;
+  }
+  footer .footer-grid-contacto .info-item img {
+    width: 25px;
+    height: 25px;
+  }
+  footer .footer-mapa {
+    height: 100px;
+  }
+  footer .footer-redes h3 {
+    font-size: 20px;
+    border-top: #577BC1 3px solid;
+    border-bottom: #577BC1 3px solid;
+    margin-top: 15px;
+  }
+  footer .footer-redes .redes-icons img {
     width: 30px;
+  }
+  footer .footer-copy {
+    font-size: 12px;
   }
 }
 

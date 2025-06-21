@@ -23,7 +23,7 @@
     .columna-mes {
       background-color: $azulclaro;
       border-radius: 10px;
-      padding: 16px;
+      padding: 8px;
 
        &:hover{
     transform: translateY(-10px);   
@@ -50,14 +50,14 @@ ul {
 
         li {
           background: #ffeb00;
-          margin: 8px;
+          margin: 7px;
           padding: 10px;
           border-radius: 6px;
           font-size: 18px;
           font-weight: bold;
           color: $azulclaro;
           text-align: justify;
-
+         
           
           }
         }
