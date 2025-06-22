@@ -10,8 +10,8 @@ h1{
     font-size: 68px;
     font-weight: bold;
     border: $azulacordion 10px solid;
-    padding: 40px 20px;
-    margin: 1%;
+    padding: 20px 10px;
+    margin: 1.5%;
     text-transform: uppercase;
     background-color: $azulacordion;
     border-radius: 8px;
@@ -20,12 +20,12 @@ h1{
 
  h2{
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
-    border: $amarillo 5px solid;
+    border: $amarillo 4px solid;
     color: $amarillo;
     padding: 1%;
-    margin: 1%;
+    margin: 1.5%;
     border-radius: 8px;
   }
  
@@ -35,24 +35,24 @@ h1{
   .contenedor-principal3 { 
 
   .categoria-titulo{
-font-size: 25px;
+font-size: 20px;
 font-weight: 550;
   text-transform: uppercase;
   margin-top: 2%;
   padding-bottom: 2%;
   color: $blanco;
   text-align: center;
-  border-bottom: $amarillo 5px solid;
+  border-bottom: $amarillo 3px solid;
   }
 
 .totales-titulo{
-font-size: 25px;
+font-size: 20px;
 font-weight: 550;
   margin-top: 2%;
   padding-bottom: 1.5%;
   color: $blanco;
   text-align: center;
-  border-bottom: $amarillo 5px solid;
+  border-bottom: $amarillo 3px solid;
 }
 
 .lista-titulos {
@@ -60,7 +60,7 @@ font-weight: 550;
   padding: 0;
   margin: 0;
   font-family: $font;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   text-align: center;
   
@@ -92,7 +92,7 @@ font-weight: 550;
   opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  border: $blanco 5px solid;
+  border: $blanco 3px solid;
 }
 
 /*categorias de 1 a 6*/

@@ -11,24 +11,25 @@
     img {
     width: 100px;
     height: auto;
+    margin-left: 35px;
     }
   }
     
     p{
-  font-size: 35px;
-  text-align: center;
+  font-size: 38px;  text-align: right;
   padding: 1%;
 
     }
   }
   .menu-navegacion {
+ li{
     a {
-        font-size: 15px;
+        font-size: 20px;
         padding: 5px;
         margin: 3px;
   }
 }
-
+}
 
 /* section 1 del cuerpo home */
 .seccion1cuerpo{
@@ -211,6 +212,45 @@ h3{
  }
 }
    }
+
+/* mediaQ pagina titulos */  
+.pagina-titulos {
+
+   h1{
+  font-size: 2rem;
+  margin: 0% 3%;
+  padding: 20px 10px;
+}
+
+h2{
+  font-size: 1.8rem;
+  margin: 2% 3%;
+  padding: 1%;
+   border: $amarillo 2px solid;
+}
+.contenedor-principal1,
+.contenedor-principal2,
+.contenedor-principal3 { 
+ 
+
+.categoria-titulo{
+  font-size: 15px;
+  border-bottom: $amarillo 3px solid;
+}
+
+.totales-titulo{
+  font-size: 18px;
+  border-bottom: $amarillo 3px solid;
+ 
+}
+
+.lista-titulos {
+  font-size: 14px;
+  font-weight: 350;
+
+  }
+}
+}
 /* mediaQ en footer */
 
 footer{

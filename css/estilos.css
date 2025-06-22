@@ -44,16 +44,18 @@ header .textos-header img {
   width: 150px;
   height: auto;
   margin: 2% 2%;
+  margin-left: 45px;
 }
 header p {
   background-color: #000957;
   font-family: "Poppins", sans-serif;
-  font-size: 48px;
+  font-size: 57px;
   color: #fff;
   font-weight: bold;
   padding: 1%;
   line-height: 1.2;
   margin-bottom: 0;
+  text-align: right;
 }
 
 .menu-navegacion {
@@ -319,8 +321,8 @@ header p {
   font-size: 68px;
   font-weight: bold;
   border: #003366 10px solid;
-  padding: 40px 20px;
-  margin: 1%;
+  padding: 20px 10px;
+  margin: 1.5%;
   text-transform: uppercase;
   background-color: #003366;
   border-radius: 8px;
@@ -328,36 +330,36 @@ header p {
 }
 .pagina-titulos h2 {
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
-  border: #f9d342 5px solid;
+  border: #f9d342 4px solid;
   color: #f9d342;
   padding: 1%;
-  margin: 1%;
+  margin: 1.5%;
   border-radius: 8px;
 }
 .pagina-titulos .contenedor-principal1 .categoria-titulo,
 .pagina-titulos .contenedor-principal2 .categoria-titulo,
 .pagina-titulos .contenedor-principal3 .categoria-titulo {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 550;
   text-transform: uppercase;
   margin-top: 2%;
   padding-bottom: 2%;
   color: #fff;
   text-align: center;
-  border-bottom: #f9d342 5px solid;
+  border-bottom: #f9d342 3px solid;
 }
 .pagina-titulos .contenedor-principal1 .totales-titulo,
 .pagina-titulos .contenedor-principal2 .totales-titulo,
 .pagina-titulos .contenedor-principal3 .totales-titulo {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 550;
   margin-top: 2%;
   padding-bottom: 1.5%;
   color: #fff;
   text-align: center;
-  border-bottom: #f9d342 5px solid;
+  border-bottom: #f9d342 3px solid;
 }
 .pagina-titulos .contenedor-principal1 .lista-titulos,
 .pagina-titulos .contenedor-principal2 .lista-titulos,
@@ -366,7 +368,7 @@ header p {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   text-align: center;
 }
@@ -407,7 +409,7 @@ header p {
   opacity: 0.8;
   border-radius: 12px;
   padding: 5px;
-  border: #fff 5px solid;
+  border: #fff 3px solid;
 }
 
 /*categorias de 1 a 6*/
@@ -528,11 +530,11 @@ footer {
   /* redes sociales */
 }
 footer h3 {
-  border-top: #577BC1 5px solid;
-  border-bottom: #577BC1 5px solid;
+  border-top: #577BC1 3px solid;
+  border-bottom: #577BC1 3px solid;
   width: 100%;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   margin-top: 45px;
 }
 footer .footer-grid-contacto {
@@ -543,30 +545,32 @@ footer .footer-grid-contacto .info-item {
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  gap: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 footer .footer-grid-contacto .info-item p {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
+  margin: 10px;
 }
 footer .footer-grid-contacto .info-item img {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
 }
 footer .footer-mapa {
-  width: 100%;
+  width: 90%;
   height: 200px;
   margin: auto;
   border-radius: 10px;
+  display: block;
 }
 footer .footer-redes h3 {
-  border-top: #577BC1 5px solid;
-  border-bottom: #577BC1 5px solid;
+  border-top: #577BC1 3px solid;
+  border-bottom: #577BC1 3px solid;
   width: 100%;
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   margin-top: 45px;
 }
 footer .footer-redes .redes-icons {
@@ -576,12 +580,12 @@ footer .footer-redes .redes-icons {
   margin-top: 10px;
 }
 footer .footer-redes .redes-icons img {
-  width: 40px;
+  width: 35px;
 }
 footer .footer-copy {
   text-align: center;
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
 }
 
@@ -594,10 +598,11 @@ footer .footer-copy {
   header .textos-header img {
     width: 80px;
     height: auto;
+    margin-left: 30px;
   }
   header p {
-    font-size: 28px;
-    text-align: center;
+    font-size: 24px;
+    text-align: right;
     padding: 1%;
   }
   /*menú de navegacion*/
@@ -871,14 +876,15 @@ footer .footer-copy {
   header .textos-header img {
     width: 100px;
     height: auto;
+    margin-left: 35px;
   }
   header p {
-    font-size: 35px;
-    text-align: center;
+    font-size: 38px;
+    text-align: right;
     padding: 1%;
   }
-  .menu-navegacion a {
-    font-size: 15px;
+  .menu-navegacion li a {
+    font-size: 20px;
     padding: 5px;
     margin: 3px;
   }
@@ -1019,6 +1025,36 @@ footer .footer-copy {
   .paginahinchada .sectionbocaenelmundo h3 {
     border-top: #f9d342 2px solid;
     padding-top: 2%;
+  }
+  /* mediaQ pagina titulos */
+  .pagina-titulos h1 {
+    font-size: 2rem;
+    margin: 0% 3%;
+    padding: 20px 10px;
+  }
+  .pagina-titulos h2 {
+    font-size: 1.8rem;
+    margin: 2% 3%;
+    padding: 1%;
+    border: #f9d342 2px solid;
+  }
+  .pagina-titulos .contenedor-principal1 .categoria-titulo,
+  .pagina-titulos .contenedor-principal2 .categoria-titulo,
+  .pagina-titulos .contenedor-principal3 .categoria-titulo {
+    font-size: 15px;
+    border-bottom: #f9d342 3px solid;
+  }
+  .pagina-titulos .contenedor-principal1 .totales-titulo,
+  .pagina-titulos .contenedor-principal2 .totales-titulo,
+  .pagina-titulos .contenedor-principal3 .totales-titulo {
+    font-size: 18px;
+    border-bottom: #f9d342 3px solid;
+  }
+  .pagina-titulos .contenedor-principal1 .lista-titulos,
+  .pagina-titulos .contenedor-principal2 .lista-titulos,
+  .pagina-titulos .contenedor-principal3 .lista-titulos {
+    font-size: 14px;
+    font-weight: 350;
   }
   /* mediaQ en footer */
   footer {

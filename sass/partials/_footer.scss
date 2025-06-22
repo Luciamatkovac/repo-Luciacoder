@@ -9,11 +9,11 @@ footer {
   font-family: $font;
 
  h3{
-    border-top: $azulclaro 5px solid ;
-    border-bottom: $azulclaro 5px solid ;
+    border-top: $azulclaro 3px solid ;
+    border-bottom: $azulclaro 3px solid ;
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 45px;
 }
 
@@ -28,17 +28,19 @@ grid-template-columns: repeat(2, 1fr);
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  gap: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 
   p{
-    font-size: 20px;
+    font-size: 16px;
     color: $blanco;
+    margin: 10px;
 }
 img {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
+  
 }
 
 }
@@ -46,20 +48,22 @@ img {
 }
 
 .footer-mapa {
-  width: 100%;
+  width: 90%;
   height: 200px;
   margin: auto;
   border-radius: 10px;
+  display: block;
+
 }
 
 /* redes sociales */
 .footer-redes{
 h3 {
-    border-top: $azulclaro 5px solid ;
-    border-bottom: $azulclaro 5px solid ;
+    border-top: $azulclaro 3px solid ;
+    border-bottom: $azulclaro 3px solid ;
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     margin-top: 45px;
 }
 .redes-icons {
@@ -69,7 +73,7 @@ h3 {
   margin-top: 10px;
 
   img {
-  width: 40px;
+  width: 35px;
   }
 
 }
@@ -79,7 +83,7 @@ h3 {
 .footer-copy {
   text-align: center;
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 12px;
   color: $blanco;
 }
 
