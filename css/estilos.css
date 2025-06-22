@@ -736,6 +736,9 @@ footer .footer-copy {
   .seccion-estadio .curiosidades-estadio ul li {
     font-size: 12px;
   }
+  .seccion-estadio .visitas-estadio ul li {
+    font-size: 12px;
+  }
   /* mediaQ en Hinchada boca */
   .paginahinchada h1 {
     font-size: 1.5rem;
