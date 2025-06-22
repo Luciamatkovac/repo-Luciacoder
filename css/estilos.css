@@ -506,7 +506,7 @@ header p {
   text-align: justify;
   color: #000957;
 }
-.seccion-estadio .Informacion-especifica, .seccion-estadio .historia-estadio, .seccion-estadio .curiosidades-estadio {
+.seccion-estadio .Informacion-especifica, .seccion-estadio .historia-estadio, .seccion-estadio .curiosidades-estadio, .seccion-estadio .visitas-estadio {
   background-color: #eaf3ff;
   padding: 3%;
   margin: 5%;
@@ -514,6 +514,12 @@ header p {
   border: #000957 15px double;
 }
 .seccion-estadio .curiosidades-estadio li {
+  font-size: 20px;
+  text-align: justify;
+  list-style-type: circle;
+  color: #000957;
+}
+.seccion-estadio .visitas-estadio li {
   font-size: 20px;
   text-align: justify;
   list-style-type: circle;
@@ -548,6 +554,7 @@ footer .footer-grid-contacto .info-item {
   gap: 5px;
   margin-bottom: 5px;
   margin-top: 5px;
+  padding: 0% 10%;
 }
 footer .footer-grid-contacto .info-item p {
   font-size: 16px;
@@ -842,6 +849,7 @@ footer .footer-copy {
   }
   footer .footer-grid-contacto .info-item {
     margin: 0%;
+    padding: 0% 6%;
   }
   footer .footer-grid-contacto .info-item p {
     font-size: 10px;

@@ -30,7 +30,7 @@ p{
 }
 
 
-.Informacion-especifica, .historia-estadio, .curiosidades-estadio {
+.Informacion-especifica, .historia-estadio, .curiosidades-estadio, .visitas-estadio{
  background-color: #eaf3ff;
   padding: 3%;
   margin: 5%;
@@ -50,4 +50,13 @@ color: $azulOscuro;
   }
   
   }
+.visitas-estadio {
+  li{
+ font-size: 20px;
+  text-align: justify;
+list-style-type: circle;
+color: $azulOscuro;
+
+  }
+}
 }
