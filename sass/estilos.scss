@@ -1,16 +1,16 @@
-@use "partials/generales";
-@use "partials/header";
+@use "partials/utilidades/generales";
+@use "partials/utilidades/header";
 
-@use "partials/seccion1index";
-@use "partials/seccion2index";
-@use "partials/seccion3index";
-@use "partials/historia";
-@use "partials/titulos";
-@use "partials/hinchada";
-@use "partials/estadio";
+@use "partials/paginas_scss/seccion1index";
+@use "partials/paginas_scss/seccion2index";
+@use "partials/paginas_scss/seccion3index";
+@use "partials/paginas_scss/historia";
+@use "partials/paginas_scss/titulos";
+@use "partials/paginas_scss/hinchada";
+@use "partials//paginas_scss/estadio";
 
-@use "partials/footer";
+@use "partials/utilidades/footer";
 
-@use "partials/mediaqmobile";
-@use "partials/mediaqtablet";
+@use "partials/mediaqueries/mediaqmobile";
+@use "partials/mediaqueries/mediaqtablet";
 
